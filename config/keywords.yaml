@@ -1,0 +1,108 @@
+# Keyword groups for Stage 1a. Edit freely.
+#
+# Spelling: write "tokeniz" or "tokenis" and the matcher accepts both
+# ("tokenized", "tokenised", "tokenization", "tokenisation").
+# Matching is case-insensitive and on whole words or phrases.
+#
+# weight: how much a hit in this group adds to the free pre-score.
+
+groups:
+  funds_and_debt:
+    weight: 3
+    terms:
+      - tokenized fund
+      - tokenized money market fund
+      - tokenized bond
+      - digital bond
+      - real-world asset
+      - real world asset
+      - RWA
+      - onchain fund
+      - on-chain fund
+      - tokenized share class
+      - fund tokenization
+  commodities:
+    weight: 3
+    terms:
+      - tokenized gold
+      - gold vault Hong Kong
+      - precious metals clearing
+      - commodity-backed token
+      - tokenized commodity
+  structured_products:
+    weight: 3
+    terms:
+      - tokenized structured product
+      - tokenized note
+  money_and_settlement:
+    weight: 2
+    terms:
+      - stablecoin licence
+      - stablecoin license
+      - stablecoin issuer
+      - HKDAP
+      - tokenized deposit
+      - Project Ensemble
+      - EnsembleTX
+      - tConnect
+      - digital asset settlement
+  ai:
+    weight: 2
+    terms:
+      - agentic AI
+      - Project SAGE
+      - GenAI sandbox
+      - AI in lending
+      - credit document automation
+      - loan operations
+      - Loan IQ
+  generic_tokenization:
+    # Broad catch-all; low weight so it only lifts a story with other signals.
+    weight: 1
+    terms:
+      - tokeniz
+      - tokenis
+
+# Geography boosts (added once if any term matches).
+geography:
+  weight: 2
+  terms: [Hong Kong, HKMA, SFC, Singapore, MAS, APAC, Asia-Pacific, Asia]
+
+# Noise markers (subtracted once if any term matches).
+noise:
+  weight: -3
+  terms:
+    - price prediction
+    - memecoin
+    - meme coin
+    - airdrop
+    - bitcoin price
+    - ether price
+    - price analysis
+    - technical analysis
+
+# Forecast-only markers (subtracted once). The AI vetting step judges this
+# properly; this is just a nudge for the free ranking.
+forecast:
+  weight: -1
+  terms:
+    - could reach
+    - will take off
+    - is poised to
+    - by 2030
+    - predicts
+    - forecast
+
+# Google News keyword searches (one RSS request per line per edition).
+# "when:" limits the search window; the collector also re-checks dates.
+google_news_queries:
+  - '"tokenized fund" OR "tokenised fund" OR "onchain fund" OR "tokenized money market"'
+  - '"tokenized bond" OR "tokenised bond" OR "digital bond" Hong Kong'
+  - '"real-world assets" tokenization Asia'
+  - '"tokenized gold" OR "tokenised gold" OR "gold token" Hong Kong OR Singapore'
+  - '"tokenized deposits" OR "tokenised deposits" OR "Project Ensemble" OR EnsembleTX'
+  - 'HKMA stablecoin licence OR license'
+  - '"structured products" tokenized OR tokenised'
+  - '"agentic AI" bank Hong Kong OR Singapore'
+  - '"Project SAGE" OR "GenAI sandbox" HKMA'
+  - '"Loan IQ" OR "credit agreement" AI automation'

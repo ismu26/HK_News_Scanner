@@ -1,0 +1,92 @@
+# Sources for the keyword collector (Stage 1a). No AI involved.
+#
+# verified: true  = feed URL confirmed to exist during set-up (Nov 2026).
+# verified: false = plausible URL not yet confirmed; the run report shows
+#                   whether it returned items. Fix or delete if it fails.
+#
+# filter: keywords   -> keep only entries matching the keyword/watchlist config
+# filter: none       -> keep every entry (use only for narrow, on-topic feeds)
+
+rss:
+  # Regulators and government
+  - name: HKMA press releases
+    url: https://www.hkma.gov.hk/eng/other-information/rss/rss_press-release.xml
+    type: regulator
+    filter: keywords
+    verified: true
+  - name: HKMA circulars
+    url: https://www.hkma.gov.hk/eng/other-information/rss/rss_circulars.xml
+    type: regulator
+    filter: keywords
+    verified: true
+  - name: SFC press releases
+    url: https://www.sfc.hk/en/RSS-Feeds/Press-releases
+    type: regulator
+    filter: keywords
+    verified: true
+  - name: SFC circulars
+    url: https://www.sfc.hk/en/RSS-Feeds/Circulars
+    type: regulator
+    filter: keywords
+    verified: true
+  - name: HKSAR Government press releases (all bureaus, incl. FSTB, InvestHK)
+    url: https://www.info.gov.hk/gia/rss/general_en.xml
+    type: regulator
+    filter: keywords
+    verified: true
+  - name: HKEX news releases
+    url: https://www.hkex.com.hk/Services/RSS-Feeds/News-Releases?sc_lang=en
+    type: market_infrastructure
+    filter: keywords
+    verified: true
+
+  # Specialist outlets
+  - name: FinTech News Hong Kong
+    url: https://fintechnews.hk/feed
+    type: outlet
+    filter: keywords
+    verified: true
+  - name: FinTech News Singapore
+    url: https://fintechnews.sg/feed
+    type: outlet
+    filter: keywords
+    verified: false
+  - name: Ledger Insights
+    url: https://www.ledgerinsights.com/feed/
+    type: outlet
+    filter: keywords
+    verified: false
+  - name: CoinDesk
+    url: https://feeds.feedburner.com/CoinDesk
+    type: outlet
+    filter: keywords
+    verified: true
+  - name: The Block
+    url: https://www.theblock.co/rss.xml
+    type: outlet
+    filter: keywords
+    verified: false
+  - name: Finextra headlines
+    url: https://www.finextra.com/rss/headlines.aspx
+    type: outlet
+    filter: keywords
+    verified: false
+  - name: DL News
+    url: https://www.dlnews.com/arc/outboundfeeds/rss/
+    type: outlet
+    filter: keywords
+    verified: true
+
+# Sources without a usable RSS feed are reached through Google News "site:"
+# searches (free). This also covers company press pages, which are often
+# JavaScript-rendered and hard to fetch directly.
+google_news_site_queries:
+  - {name: MAS media releases, site: mas.gov.sg}
+  - {name: Cyberport, site: cyberport.hk}
+  - {name: InvestHK, site: investhk.gov.hk}
+  - {name: The Standard (HK), site: thestandard.com.hk}
+  - {name: SCMP (headlines only), site: scmp.com}
+  - {name: Janus Henderson press, site: janushenderson.com}
+  - {name: Centrifuge, site: centrifuge.io}
+  - {name: Stellar Development Foundation, site: stellar.org}
+  - {name: Marketnode, site: marketnode.com}

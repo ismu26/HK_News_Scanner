@@ -1,0 +1,40 @@
+# General settings. Edit freely; nothing here is hard-coded in the scripts.
+
+timezone: Asia/Hong_Kong
+
+# Only keep stories first published within this many hours (daily runs).
+window_hours: 36
+
+# Monday's run also covers the weekend (Fri 06:45 to Mon 06:45 HKT, plus slack).
+monday_window_hours: 84
+
+# One-off set-up run (python run.py --setup) scans this many days back.
+setup_days: 30
+
+# How many pre-scored candidates to hand to the AI vetting step.
+max_candidates_for_vetting: 40
+
+# Hard cap on the final daily list (the vetting step also enforces this).
+max_daily_items: 10
+
+# Minimum vetting score (0-5) for a story to make the daily list.
+min_vet_score: 3
+
+# Two date sources further apart than this are flagged "date unverified".
+date_disagreement_hours: 24
+
+# Open each candidate's page to confirm its publication date.
+fetch_pages_for_dates: true
+page_fetch_timeout_seconds: 15
+max_page_fetches: 150
+
+# Polite identification for requests. Generic on purpose.
+user_agent: "Mozilla/5.0 (compatible; personal-news-scanner/0.1)"
+
+# Google News editions to query. US English is confirmed to work.
+# HK and SG editions follow the same documented pattern but are not yet
+# confirmed in a live run; the run log will show whether they return items.
+google_news_editions:
+  - {hl: en-US, gl: US, ceid: "US:en"}
+  - {hl: en-HK, gl: HK, ceid: "HK:en"}
+  - {hl: en-SG, gl: SG, ceid: "SG:en"}

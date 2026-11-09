@@ -1,0 +1,27 @@
+# Watched firms. A mention adds to the free pre-score, and each firm gets
+# its own Google News search.
+#
+# require_tokenization: true -> only counts when the story also mentions
+# tokenization/tokenisation (for large banks that appear in lots of news).
+
+weight: 3
+
+firms:
+  - {name: Marketnode}
+  - {name: Finloop}
+  # "Stellar" alone is a common English word, so the bare name only counts
+  # alongside tokenization; the specific phrases always count.
+  - {name: Stellar Development Foundation, aliases: [Stellar network, Stellar blockchain]}
+  - {name: Stellar, require_tokenization: true}
+  - {name: Centrifuge}
+  - {name: Janus Henderson}
+  - {name: Franklin Templeton}
+  - {name: BlackRock, require_tokenization: true}
+  - {name: HashKey}
+  - {name: Anchorpoint}
+  - {name: Lion Global, aliases: [Lion Global Investors]}
+  - {name: Nammu21}
+  - {name: Finastra}
+  - {name: HSBC, require_tokenization: true}
+  - {name: Standard Chartered, require_tokenization: true}
+  - {name: Ant, aliases: [Ant Group, Ant Digital, AntChain], require_tokenization: true}
