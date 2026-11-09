@@ -9,9 +9,10 @@ Ishaan's plan). The scheduled task's prompt says: "Follow prompts/vet.md in the 
    collection run, plus a "date unverified" list. Check `generated_at` is from today (HKT). If it
    is older, say so at the top of the page and vet what is there.
 2. `config/criteria.md`: the current relevance criteria and 0 to 5 scale. Follow it exactly.
-3. Labelled examples: rows in the Google Sheet "Labels" tab marked use_as_example = yes (fall
+3. Labelled examples: rows in the Google Sheet (`google_sheet_id` in config/settings.yaml) "Labels" tab marked use_as_example = yes (fall
    back to `config/labels.csv` if the Sheet is unreachable). Use at most 15, mixing relevant and
-   not relevant, most recent first.
+   not relevant, most recent first. Rows with a label but use_as_example blank still count as
+   labels; prefer them over unlabelled rows.
 
 ## How to score each candidate
 

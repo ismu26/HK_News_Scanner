@@ -2,6 +2,9 @@
 
 timezone: Asia/Hong_Kong
 
+# Feedback sheet ("HK News Scanner: feedback"): Daily and Labels tabs.
+google_sheet_id: 1Ne6ubfoaGYOGX7WStP85OlED8SMtPfGiuAoFvpVpcIc
+
 # Only keep stories first published within this many hours (daily runs).
 window_hours: 36
 
