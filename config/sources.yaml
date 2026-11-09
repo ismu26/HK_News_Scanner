@@ -80,13 +80,19 @@ rss:
 # Sources without a usable RSS feed are reached through Google News "site:"
 # searches (free). This also covers company press pages, which are often
 # JavaScript-rendered and hard to fetch directly.
+#
+# context: extra search terms, used for company sites so that job ads, fund
+# documents and unrelated commentary stay out.
 google_news_site_queries:
+  # Fallbacks for feeds that refused requests from GitHub's servers on 9 Nov
+  - {name: HKMA (fallback), site: hkma.gov.hk}
+  - {name: HKSAR Government press releases (fallback), site: info.gov.hk}
   - {name: MAS media releases, site: mas.gov.sg}
   - {name: Cyberport, site: cyberport.hk}
   - {name: InvestHK, site: investhk.gov.hk}
   - {name: The Standard (HK), site: thestandard.com.hk}
   - {name: SCMP (headlines only), site: scmp.com}
-  - {name: Janus Henderson press, site: janushenderson.com}
-  - {name: Centrifuge, site: centrifuge.io}
-  - {name: Stellar Development Foundation, site: stellar.org}
+  - {name: Janus Henderson press, site: janushenderson.com, context: "(tokenization OR tokenisation OR tokenized OR tokenised OR onchain OR blockchain OR \"digital asset\")"}
+  - {name: Centrifuge, site: centrifuge.io, context: "(tokenization OR tokenisation OR tokenized OR tokenised OR onchain OR blockchain OR \"digital asset\")"}
+  - {name: Stellar Development Foundation, site: stellar.org, context: "(tokenization OR tokenisation OR tokenized OR tokenised OR onchain OR blockchain OR \"digital asset\")"}
   - {name: Marketnode, site: marketnode.com}

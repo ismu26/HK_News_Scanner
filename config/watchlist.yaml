@@ -6,9 +6,14 @@
 
 weight: 3
 
+# Each firm gets its own Google News search: "<name>" plus this context, so
+# a big firm's unrelated news (ETF commentary, job ads) stays out. A firm can
+# override it with its own `context`.
+default_context: "(tokenization OR tokenisation OR tokenized OR tokenised OR RWA OR onchain OR stablecoin OR blockchain OR \"digital asset\")"
+
 firms:
-  - {name: Marketnode}
-  - {name: Finloop}
+  - {name: Marketnode, context: ""}   # any Marketnode news counts
+  - {name: Finloop, context: ""}
   # "Stellar" alone is a common English word, so the bare name only counts
   # alongside tokenization; the specific phrases always count.
   - {name: Stellar Development Foundation, aliases: [Stellar network, Stellar blockchain]}
@@ -21,7 +26,7 @@ firms:
   - {name: Anchorpoint}
   - {name: Lion Global, aliases: [Lion Global Investors]}
   - {name: Nammu21}
-  - {name: Finastra}
+  - {name: Finastra, context: "(AI OR \"Loan IQ\" OR lending OR loan OR syndicated)"}
   - {name: HSBC, require_tokenization: true}
   - {name: Standard Chartered, require_tokenization: true}
   - {name: Ant, aliases: [Ant Group, Ant Digital, AntChain], require_tokenization: true}

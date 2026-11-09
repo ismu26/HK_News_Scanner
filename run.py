@@ -28,7 +28,11 @@ def load_config() -> dict:
 
 def make_fetchers(settings: dict):
     session = requests.Session()
-    session.headers["User-Agent"] = settings["user_agent"]
+    session.headers.update({
+        "User-Agent": settings["user_agent"],
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/rss+xml,*/*;q=0.8",
+        "Accept-Language": "en-GB,en;q=0.9",
+    })
     timeout = settings.get("page_fetch_timeout_seconds", 15)
 
     def fetch_feed(url: str) -> bytes:

@@ -136,7 +136,7 @@ def test_press_release_alone_without_firm_on_watchlist():
 def test_also_covered_by_listed_once():
     r = run_at(datetime(2026, 10, 29, 0, 0, tzinfo=timezone.utc))
     jqqq = next(i for i in r["candidates"] if "JQQQ" in i.title)
-    assert [src for src, _ in jqqq.also] == ["Ledger Test"]
+    assert [a[0] for a in jqqq.also] == ["Ledger Test"]
 
 
 def test_page_fetching_respects_time_limit():
@@ -155,3 +155,27 @@ def test_page_fetching_respects_time_limit():
     got = fetch_pages(items, slow, limit=100, deadline=start + 0.5, workers=4)
     assert time.monotonic() - start < 2.0
     assert 0 < len(got) < 100
+
+
+REAL_HEADLINES = [  # from the 9 Nov set-up run
+    "Janus Henderson And Centrifuge Introduce Licensed Blockchain Native Nasdaq-100 Fund",
+    "Janus Henderson brings Nasdaq-100 onchain with tokenized fund JQQQ",
+    "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund",
+    "Here's Why Janus Henderson is Bullish On Meta Platforms, Inc. (META)",
+    "Mirae Asset Securities Issues Tokenised Funding Notes on Solana With Marketnode",
+    "Mirae Asset Securities HK issues 1st dollar-denominated digital bond using proprietary technology",
+]
+
+
+def test_story_grouping_on_real_headlines():
+    from scanner.collect import Item
+    from scanner.dedupe import dedupe
+    d = datetime(2026, 10, 28, tzinfo=timezone.utc)
+    items = [Item(title=t, url=f"https://x.test/{i}", source="x", found_by={"rss"}, rss_date=d)
+             for i, t in enumerate(REAL_HEADLINES)]
+    out = dedupe(items)
+    titles_out = [i.title for i in out]
+    assert len(out) == 4                                          # 3 JQQQ headlines -> 1 story
+    assert any("Meta Platforms" in t for t in titles_out)         # unrelated Janus news stays separate
+    assert any("Marketnode" in t for t in titles_out)             # Marketnode story not swallowed
+    assert any("digital bond" in t for t in titles_out)

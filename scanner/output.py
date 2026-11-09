@@ -29,7 +29,7 @@ def item_to_dict(it: Item, now: datetime) -> dict:
         "date_verified": it.date_verified, "date_note": it.date_note,
         "age_hours": age, "snippet": it.snippet, "prescore": it.prescore,
         "prescore_reasons": it.prescore_reasons, "status": it.status,
-        "also_covered_by": [{"source": a, "url": b} for a, b in it.also],
+        "also_covered_by": [{"source": a, "url": b, "title": t} for a, b, t in it.also],
     }
 
 

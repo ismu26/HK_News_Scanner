@@ -164,8 +164,9 @@ def extract(url: str, html: Optional[str], rss_date: Optional[datetime],
     # Compare precise sources against each other. URL and visible dates are
     # day-precision only, so allow a full extra day of slack for them.
     verified, note = True, ""
+    strong = {"jsonld", "meta"} & found.keys()
     for m, dt in found.items():
-        if m == method:
+        if m == method or (m == "visible" and strong):
             continue
         slack = disagreement_hours + (24 if m in ("url", "visible") or method in ("url", "visible") else 0)
         if abs((dt - chosen).total_seconds()) > slack * 3600:

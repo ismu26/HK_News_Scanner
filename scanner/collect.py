@@ -25,7 +25,7 @@ class Item:
     rss_date: Optional[datetime] = None
     snippet: str = ""
     google_url: str = ""      # original news.google.com link, if any
-    also: list = field(default_factory=list)  # other (source, url) covering the same story
+    also: list = field(default_factory=list)  # other (source, url, title) covering the same story
     extra_text: str = ""   # titles/snippets of merged duplicates
     page_text: str = ""    # start of the article page, when opened
     # filled later
@@ -109,18 +109,20 @@ def build_requests(sources: dict, keywords: dict, watchlist: dict, settings: dic
             full = f"{q} when:{when}"
             reqs.append({"name": f"Google News [{ed['gl']}]: {q}", "url": google_news_url(full, ed),
                          "found_by": "google_keywords", "filter": "keywords", "query": q})
-    context = "(tokenization OR tokenisation OR tokenized OR tokenised OR RWA OR onchain OR stablecoin OR blockchain OR AI)"
+    default_context = watchlist.get("default_context", "")
     seen_names = set()
     for f in watchlist.get("firms", []):
-        if f["name"] in seen_names:
+        if f["name"] in seen_names or f.get("search") is False:
             continue
         seen_names.add(f["name"])
+        context = f.get("context", default_context)
         q = f'"{f["name"]}" {context} when:{when}'
         ed = editions[0] if editions else {"hl": "en-US", "gl": "US", "ceid": "US:en"}
         reqs.append({"name": f"Google News firm: {f['name']}", "url": google_news_url(q, ed),
                      "found_by": "google_firm", "filter": "keywords", "query": f["name"]})
     for s in sources.get("google_news_site_queries", []):
-        q = f"site:{s['site']} when:{when}"
+        ctx = f" {s['context']}" if s.get("context") else ""
+        q = f"site:{s['site']}{ctx} when:{when}"
         ed = editions[0] if editions else {"hl": "en-US", "gl": "US", "ceid": "US:en"}
         reqs.append({"name": f"Google News site: {s['name']}", "url": google_news_url(q, ed),
                      "found_by": "google_site", "filter": "keywords", "query": s["site"]})

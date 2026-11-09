@@ -15,6 +15,12 @@ Ishaan's plan). The scheduled task's prompt says: "Follow prompts/vet.md in the 
 
 ## How to score each candidate
 
+- Each candidate is a story: the main link plus other outlets' headlines in also_covered_by.
+  If those headlines describe a different event (the grouping is automatic and can be wrong),
+  say so in the reason. If two candidates are the same event, score the better source and
+  give the other 0 with reason "duplicate of <title>".
+- Prefer the original source (company or regulator release) as the main link when it is
+  among the grouped links.
 - Judge from the title, source, date, snippet and also_covered_by. Do not open the page unless
   the snippet is empty or the title is ambiguous; in that case open it once.
 - Give a score of 0 to 5 per the scale, and a one-line reason (under 25 words) naming the concrete
