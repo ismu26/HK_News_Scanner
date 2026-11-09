@@ -22,7 +22,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -34,9 +34,9 @@ jobs:
       - name: Collect
         run: |
           if [ "${{ inputs.setup }}" = "true" ]; then
-            python run.py collect --setup
+            python -u run.py collect --setup
           else
-            python run.py collect
+            python -u run.py collect
           fi
       - name: Commit results
         run: |

@@ -25,8 +25,13 @@ date_disagreement_hours: 24
 
 # Open each candidate's page to confirm its publication date.
 fetch_pages_for_dates: true
-page_fetch_timeout_seconds: 15
+page_fetch_timeout_seconds: 10
 max_page_fetches: 150
+fetch_workers: 12
+
+# Time limit for link decoding + page fetching. Anything not checked in time
+# keeps its feed date (and is the lowest-ranked anyway).
+time_budget_seconds: 480
 
 # Polite identification for requests. Generic on purpose.
 user_agent: "Mozilla/5.0 (compatible; personal-news-scanner/0.1)"

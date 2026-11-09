@@ -137,3 +137,21 @@ def test_also_covered_by_listed_once():
     r = run_at(datetime(2026, 10, 29, 0, 0, tzinfo=timezone.utc))
     jqqq = next(i for i in r["candidates"] if "JQQQ" in i.title)
     assert [src for src, _ in jqqq.also] == ["Ledger Test"]
+
+
+def test_page_fetching_respects_time_limit():
+    """The set-up run timed out on GitHub (9 Nov). Slow pages must not be able
+    to hold the run past its time budget."""
+    import time
+    from scanner.collect import Item
+    from scanner.pipeline import fetch_pages
+
+    def slow(url):
+        time.sleep(0.3)
+        return "<html></html>"
+
+    items = [Item(title=f"t{i}", url=f"https://x.test/{i}", source="x", found_by={"rss"}) for i in range(100)]
+    start = time.monotonic()
+    got = fetch_pages(items, slow, limit=100, deadline=start + 0.5, workers=4)
+    assert time.monotonic() - start < 2.0
+    assert 0 < len(got) < 100

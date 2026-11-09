@@ -63,7 +63,8 @@ def cmd_collect(args) -> int:
     fetch_feed, fetch_page = make_fetchers(s)
     if args.setup:
         s["max_candidates_for_vetting"] = 300
-        s["max_page_fetches"] = 600
+        s["max_page_fetches"] = 400
+        s["time_budget_seconds"] = 1200
     result = run_stage1(cfg, fetch_feed, fetch_page, window_hours=window)
     out = ROOT / "data" / ("setup" if args.setup else "runs")
     path = write_candidates(result, out)
