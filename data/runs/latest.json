@@ -1,61 +1,26 @@
 {
-  "generated_at": "2026-11-10T04:18:31.643108+00:00",
+  "generated_at": "2026-11-11T02:14:47.206690+00:00",
   "window_hours": 36,
-  "window_start": "2026-11-08T16:18:31.643108+00:00",
+  "window_start": "2026-11-09T14:14:47.206690+00:00",
   "stats": {
     "requests": 70,
-    "raw": 242,
-    "after_dedupe": 131,
-    "kept": 89,
-    "unverified": 6,
-    "dropped": 32,
-    "page_fetches": 113
+    "raw": 308,
+    "after_dedupe": 155,
+    "kept": 87,
+    "unverified": 10,
+    "dropped": 50,
+    "page_fetches": 135
   },
   "candidates": [
-    {
-      "title": "Hong Kong Fintech Week 2026 Wraps Up With Over 48,000 Visitors",
-      "url": "https://fintechnews.hk/41996/hong-kong-fintech-week-news/hong-kong-fintech-week-2026/",
-      "google_url": "",
-      "source": "FinTech News Hong Kong",
-      "found_by": [
-        "rss"
-      ],
-      "queries": [],
-      "published": "2026-11-09T04:39:39+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-09T04:39:39+00:00",
-        "meta": "2026-11-09T04:39:39+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T04:39:39+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 23.6,
-      "snippet": "More than 48,000 visitors from over 120 economies attended Hong Kong Fintech Week x StartmeupHK 2026. The event featured more than 1,100 speakers, 800 exhibitors and over 30 delegations, according to Invest Hong Kong (InvestHK). Discussions covered artificial intelligence (AI), digital assets, tokenisation, financial regulation and cross-border expansion. Major Banks Outline AI and Digital Asset [...] The post Hong Kong Fintech Week 2026 Wraps Up With Over 48,000 Visitors appeared first on Fintech Hong Kong .",
-      "prescore": 17,
-      "prescore_reasons": [
-        "funds_and_debt: tokenized money market fund",
-        "money_and_settlement: tokenized deposit",
-        "ai: Project SAGE",
-        "generic_tokenization: tokeniz, tokenis",
-        "watched firms: Franklin Templeton, HashKey, HSBC, Standard Chartered, Ant",
-        "geography: Hong Kong, HKMA, Asia"
-      ],
-      "status": "kept",
-      "also_covered_by": []
-    },
     {
       "title": "Stellar Foundation Backs Marketnode to Expand Tokenized Funds Across Asia-Pacific",
       "url": "https://www.tradingview.com/news/newsbtc:de5aaf270094b:0-stellar-foundation-backs-marketnode-to-expand-tokenized-funds-across-asia-pacific/",
       "google_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeUg2Z2FvbVhRM002QUxTNzVCSnQ0WjgyeVMxT0FDSi1kX2dwR1pIZjlCY1QzSTlaLWEyZjZVUHBWbkhySGNaakNweEo4anBMMTJ6OFJhRVlnS2hScGlTenc5Zm5FQzl1czhSb2ROaUhKb2MzeHlTM2hUVnRvT1FnclFRNWJmWXFuTm5RSmNlMW5LVHF2bXV4Nno1ZU5LZU9VNVl3NVNDVEJ0RUNnN0pMNUROVEFmT2J5MXZ6cTlJWTZlbGFaUG9oQ21mUkVtUFRXNkN3WE5B?oc=5",
       "source": "TradingView",
       "found_by": [
-        "google_firm",
-        "google_keywords"
+        "google_firm"
       ],
       "queries": [
-        "\"real-world assets\" tokenization Asia",
         "HSBC",
         "Marketnode",
         "Stellar",
@@ -70,7 +35,7 @@
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 12.3,
+      "age_hours": 34.2,
       "snippet": "Stellar Foundation Backs Marketnode to Expand Tokenized Funds Across Asia-Pacific TradingView",
       "prescore": 12,
       "prescore_reasons": [
@@ -80,223 +45,253 @@
         "geography: Asia-Pacific, Asia"
       ],
       "status": "kept",
-      "also_covered_by": [
-        {
-          "source": "KuCoin",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM0tXRENEYm5iMWZDaGFfaDZnYnZXS3QtTTB3Tlo0eUNHSGYzWjlEejVreHYwaEItelViMENLa3gzWllUbThnSWNhenVVc01IU2dtaEZLRTlaUWFzeXd1YmRCYm5iYmpZc0NYOWpLYXhrTjZOcE1COF9vN0w3TTFfdUZXLWRVVUQ2ODA3dEtQNWxObGhhNDFtVnVzWjNkSjhwODAxeHFpQW0ybks2M0xZU2VuZ2xwME0?oc=5",
-          "title": "Stellar Foundation Invests in Marketnode to Expand Tokenized Funds in Asia-Pacific"
-        }
-      ]
-    },
-    {
-      "title": "WDAF 2026 brings global finance leaders to Seoul",
-      "url": "https://www.koreaherald.com/article/10928694",
-      "google_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9wTm9LM0NjRTBRTzRNa3ZPRXZOSUF0RVlaeFBuY1Jqbm13am0xb0poenV4aTZCYkdCZ0t1UlFXel9hTWN1cWo4aUw3S2d6aEZZTVdLb3BmUQ?oc=5",
-      "source": "The Korea Herald",
-      "found_by": [
-        "google_firm",
-        "google_keywords"
-      ],
-      "queries": [
-        "\"real-world assets\" tokenization Asia",
-        "Standard Chartered"
-      ],
-      "published": "2026-11-08T23:01:00+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-08T23:01:00+00:00",
-        "meta": "2026-11-08T23:01:00+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-08T23:01:00+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 29.3,
-      "snippet": "WDAF 2026 brings global finance leaders to Seoul The Korea Herald",
-      "prescore": 12,
-      "prescore_reasons": [
-        "funds_and_debt: real-world asset, real world asset",
-        "money_and_settlement: stablecoin issuer",
-        "generic_tokenization: tokeniz, tokenis",
-        "watched firms: HSBC, Standard Chartered",
-        "geography: APAC, Asia-Pacific, Asia"
-      ],
-      "status": "kept",
       "also_covered_by": []
     },
     {
-      "title": "Hong Kong Web3 Festival 2027 Will Take Place From April 19 to April 21",
-      "url": "https://incrypted.com/en/hong-kong-web3-festival-2027-will-take-place-from-april-19-to-april-21/",
-      "google_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbl9aT1BUaTZQZTcwUy1nRTV6T0NoQW9ZME5GYUhtNFFWdUNtYWQwT19KV2Z4TkNpeUJVSG5qUHprTEY2RzdGS0pHMkJwcWhtbGw2djdpR3JwWTlWTnFyRVZhQW82WmlENWVhT0ZvdmJqcHRPLUQ4T3JqZ256VTRpdkI5dEF6ekNlQzVnN2pWUWFoSEExcFdyNDdCQ3Y?oc=5",
-      "source": "Incrypted",
+      "title": "Hong Kong Web3 Festival 2027 Announces 'OnChain Finance' Theme, Introduces Institutional Arena",
+      "url": "https://www.manilatimes.net/2026/11/10/tmt-newswire/pr-newswire/hong-kong-web3-festival-2027-announces-onchain-finance-theme-introduces-institutional-arena/2465978",
+      "google_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNUm9sQjFCUHhOZ3JoZzIzUWo2TlBXUTFKWTdxb1FGRE1QVEtWaGx1VGsxQ0JyeFNkd0w0bTFFc2dxS3ZTNmRyVExGeFc2VDRTWERETk1yZV9aZ3NjUDhZekQzdWpRWVl1eEpnOVBaeFRMekRkR0E2elBKZnJxS2w2Q3QwNXRDR0lGNWpHdkdyZUNid25XQlJwcXBrcEtuOTFjalltRTNmdmd1S0h6VFlvQmJKN3JIT2F4NU5OMHJQTjd2a3RQTmxuaTFiRHhUR2FINGQ4R180TFhMTDU5alpFdmh5Wm1vdXlMUlIyV1dCWGpkZ0J6R0HSAfsBQVVfeXFMTURCVHZweW9iaXRvZ3pueFBQNWE5ZUp6RkNJRF9pa1hrZjBWOV9iUm5Xb3N1c29WMVQxSmpjZEE2dzctX1pnN2F3OHZEQjRYMk9pTFA4WDd0TlVqNjUwdkdiaURISFJwR2pZY2xqNVVoc19uc2haOG9Kc3U5dkE0bV9YME9XcXN5dllrblpjLS1PUGIxWDB2ZU41SFNOVFZxc09nS2pVdUN6VmZqLTF0cEhIUldsSFFJNHlEcFFqU0pqNHM5QkRDME8wSVlJLVV4SkNDcWdTRlVsTExTRl9YV1Z6cEVFZE9qazJUOU9FVG8yS3pfeWk0Q085RkE?oc=5",
+      "source": "The Manila Times",
       "found_by": [
         "google_firm"
       ],
       "queries": [
         "HashKey"
       ],
-      "published": "2026-11-09T11:23:45+00:00",
-      "date_method": "jsonld",
+      "published": "2026-11-10T06:55:22+00:00",
+      "date_method": "meta",
       "dates_found": {
-        "jsonld": "2026-11-09T11:23:45+00:00",
-        "rss": "2026-11-09T11:23:45+00:00"
+        "meta": "2026-11-10T06:55:22+00:00",
+        "visible": "2026-11-11T00:00:00+00:00",
+        "rss": "2026-11-10T06:55:22+00:00",
+        "url": "2026-11-10T00:00:00+00:00"
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 16.9,
-      "snippet": "Hong Kong Web3 Festival 2027 Will Take Place From April 19 to April 21 Incrypted",
-      "prescore": 11,
+      "age_hours": 19.3,
+      "snippet": "Hong Kong Web3 Festival 2027 Announces 'OnChain Finance' Theme, Introduces Institutional Arena The Manila Times",
+      "prescore": 9,
       "prescore_reasons": [
-        "funds_and_debt: real-world asset, real world asset, RWA",
-        "money_and_settlement: tokenized deposit",
         "generic_tokenization: tokeniz, tokenis",
-        "watched firms: HashKey",
+        "watched firms: BlackRock, HashKey, HSBC, Ant",
         "geography: Hong Kong"
       ],
       "status": "kept",
       "also_covered_by": []
     },
     {
-      "title": "RD Technologies to upgrade stablecoin infrastructure",
-      "url": "https://www.atmmarketplace.com/news/rd-technologies-to-upgrade-stablecoin-infrastructure/",
-      "google_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPR0dZbW9RZVdjdW5UeTB5VU1uM2JPQTVmTkhBX0FUUjFhbTNpNXRzSFdrSnNqOVRjQm5Ob3BFQzdIeDljQUxPMU1aSURMWkJXUmJLMDNiTk1JRGZDQk5jamVNRlNWa2ZmbXVPNnQxbHdTeDZCN194LV80NWxkbUFfWGpJZ1RmLXA2cnI3UEM5SW9aQ0k?oc=5",
-      "source": "ATM Marketplace",
+      "title": "[WDAF 2026] Tokenization's next challenge: Getting assets to investors",
+      "url": "https://www.koreaherald.com/article/10932375",
+      "google_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5LaXpEVnhRR3VucTQ1aUx0UEhrV0RBSVk1YVBSOTYyZzdEcE0wQVhEb2lubDBvZFZvX2Y3dWNPRVJVR2J3N01qb05jY1BtUlc4d051M29KVQ?oc=5",
+      "source": "The Korea Herald",
       "found_by": [
         "google_firm"
       ],
       "queries": [
-        "HashKey"
+        "HSBC"
       ],
-      "published": "2026-11-09T11:00:00+00:00",
+      "published": "2026-11-10T06:08:17+00:00",
       "date_method": "jsonld",
       "dates_found": {
-        "jsonld": "2026-11-09T11:00:00+00:00",
-        "meta": "2026-11-09T11:00:00+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T11:00:00+00:00"
+        "jsonld": "2026-11-10T06:08:17+00:00",
+        "meta": "2026-11-10T06:08:17+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
+        "rss": "2026-11-10T06:08:17+00:00"
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 17.3,
-      "snippet": "RD Technologies to upgrade stablecoin infrastructure ATM Marketplace",
+      "age_hours": 20.1,
+      "snippet": "[WDAF 2026] Tokenization's next challenge: Getting assets to investors The Korea Herald",
       "prescore": 9,
       "prescore_reasons": [
         "funds_and_debt: real-world asset, real world asset",
+        "money_and_settlement: tokenized deposit",
         "generic_tokenization: tokeniz, tokenis",
-        "watched firms: HashKey",
-        "geography: Hong Kong, Asia"
+        "watched firms: HSBC"
       ],
       "status": "kept",
       "also_covered_by": []
     },
     {
-      "title": "Franklin Templeton’s tokenized funds add $532.4 million in 30 days",
-      "url": "https://cryptobriefing.com/franklin-templeton-tokenized-funds-532-million/",
-      "google_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VVFA4ejZhSVQtQVkxbG84UU9NZEJoalphX2xxTEk0by16RFc2aUVJcExhUV85ZGdLcHNldy1wZVZuQ0ZFQnVOVEZLRHltV3Z4UTY3SVJnS2lycm5Jcy01WXAwa1RnMUhhZkNyZ1ExQm9BM25fMzczQmZOM2EzNEE?oc=5",
-      "source": "Crypto Briefing",
+      "title": "Top Tokenized Money Market Fund (MMFs) Coins by Market Cap",
+      "url": "https://www.coingecko.com/en/categories/tokenized-money-market-fund-mmfs",
+      "google_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9jQzkyVFh5YnE0U0dBOVdRQm9OQkFoZVd5ZWxJbVdqRjZuLXBCaDNqZmd0VkFLdEJsdnlIYmdqcE5XMTNySUc2bjRwOWMtMk5oUVJiNzBXaWd0b3pVNjduYzZxdV9Fd21MdHN4YkxTQklDTVBrUTd4YTRaQVk?oc=5",
+      "source": "CoinGecko",
       "found_by": [
-        "google_firm",
         "google_keywords"
       ],
       "queries": [
-        "\"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\"",
-        "Franklin Templeton"
+        "\"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\""
       ],
-      "published": "2026-11-09T10:42:24+00:00",
-      "date_method": "jsonld",
+      "published": "2026-11-09T19:30:46+00:00",
+      "date_method": "rss",
       "dates_found": {
-        "jsonld": "2026-11-09T10:42:24+00:00",
-        "meta": "2026-11-09T10:42:24+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T10:42:24+00:00"
+        "rss": "2026-11-09T19:30:46+00:00"
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 17.6,
-      "snippet": "Franklin Templeton’s tokenized funds add $532.4 million in 30 days Crypto Briefing",
+      "age_hours": 30.7,
+      "snippet": "Top Tokenized Money Market Fund (MMFs) Coins by Market Cap CoinGecko",
       "prescore": 9,
       "prescore_reasons": [
-        "funds_and_debt: tokenized fund, tokenized money market fund",
+        "funds_and_debt: tokenized money market fund, real-world asset, real world asset",
         "generic_tokenization: tokeniz, tokenis",
-        "watched firms: Stellar Development Foundation, Franklin Templeton, BlackRock"
+        "watched firms: BlackRock",
+        "geography: Hong Kong, SFC"
       ],
       "status": "kept",
-      "also_covered_by": [
-        {
-          "source": "American Banker",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90QzJGZEh4RUQzUnl0S1FPU0R5X19fbW9tLU9jbTJMOGFrM0V2aVQwWmticDV5aGp0ZmFqLWwzRnBUazVGQnNqaS1vSjFLRjlYR0lyMU90OWY0WFVPaEEzdmNzUG1IMWRWS1UtLVN1bVFTSTlkcm56UnJuQXFtLVE?oc=5",
-          "title": "Inside Franklin Templeton's crypto leap"
-        }
-      ]
+      "also_covered_by": []
     },
     {
-      "title": "Weekly Recap: Share buyback and Hong Kong tokenised deposits launch",
-      "url": "https://www.tradingview.com/news/tradingview:0c74e9c619067:0-weekly-recap-share-buyback-and-hong-kong-tokenised-deposits-launch/",
-      "google_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSFdTa3J3SVRzd3ZoR1pQbHRFa0hoOE1KLTRFQWZ6WHlINmh4Z0NkS0JudzlJUUhGc0pFcUdWN3VKVGhZTDdTVGJ6ak9HUlFmSzdtQmRiY0E4SmNYMEYzcnpRZkRZS1A5TFhzU0tJOWRaLW11RUd1aWtzVmk0N2ltVjd6QXg0VTdndEZ1Z25wZHVXSW9Wa0dRbFBwRUs3ejlvOERYRTlHbEpIWE1uQlVhLXF3MXREX3AwQzVZT2VNU0RzbmJqSG9F?oc=5",
+      "title": "Higher JAAA Borrowing Limits Take Effect on Aave Horizon",
+      "url": "https://www.tokenpost.com/news/investing/53287",
+      "google_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91QUJhQXF1VFhRLXVoTzREQTFXV2JrT2tPSlZDcV9XaW1kYW9qWUNHSHJmbzI2Znc1UUU1bG5mRzJNaXhTMTlqSnVoTHJTWnhTd2ZtNU9lSmZPQQ?oc=5",
+      "source": "TOKENPOST",
+      "found_by": [
+        "google_firm"
+      ],
+      "queries": [
+        "Janus Henderson"
+      ],
+      "published": "2026-11-10T19:23:19+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-10T19:23:19+00:00",
+        "meta": "2026-11-10T19:23:19+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
+        "rss": "2026-11-10T19:23:19+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 6.9,
+      "snippet": "Higher JAAA Borrowing Limits Take Effect on Aave Horizon TOKENPOST",
+      "prescore": 8,
+      "prescore_reasons": [
+        "funds_and_debt: real-world asset, real world asset",
+        "generic_tokenization: tokeniz, tokenis",
+        "watched firms: Centrifuge, Janus Henderson"
+      ],
+      "status": "kept",
+      "also_covered_by": []
+    },
+    {
+      "title": "Standard Chartered Pilots Redemption Liquidity Facility For Ant International's Investment In Tokenised Money Market Funds",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46R140:0-standard-chartered-pilots-redemption-liquidity-facility-for-ant-international-s-investment-in-tokenised-money-market-funds/",
+      "google_url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOczFuaXNod0FLM1FGNzdlYW0weHF5a21aamFtN19ZLUZSdWVBazI1LXhRV2w4N092U1BwMXlvOFZXcEJlbTRMYXhkSzdyRFhfc0RXd1RELVoycEJ4dy1BYl93aVpXam5seUE5cERtY3N2ajdxcjFjbEI1eVFQOUlySDB1aXdMdndlZXZ6LWZwclVScW03Y0lfQ1c4VUZyZmE3OUtSSXdwVzRCSnRuZ2NuUTFjSWlKZ1kwTUw2LXhLSEpQaDFVWFoxa2t3MUFOX21QSFp1cWExbWlZLTRpWXBOUVJyT1hfQjA5QmhyVkVwT3pkZG11WXZqWkxhSmNRSVppQVV5eGVOUUY5T1o5QWxYT3VYQVg1dVl2ZmpJTw?oc=5",
       "source": "TradingView",
       "found_by": [
         "google_firm",
         "google_keywords"
       ],
       "queries": [
-        "\"tokenized deposits\" OR \"tokenised deposits\" OR \"Project Ensemble\" OR EnsembleTX",
-        "HashKey",
+        "\"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\"",
+        "Ant",
         "Standard Chartered"
       ],
-      "published": "2026-11-09T05:00:00+00:00",
+      "published": "2026-11-10T10:31:10+00:00",
       "date_method": "jsonld",
       "dates_found": {
-        "jsonld": "2026-11-09T05:00:00+00:00",
-        "meta": "2026-11-09T05:00:00+00:00",
-        "visible": "2027-01-01T00:00:00+00:00",
-        "rss": "2026-11-09T05:00:00+00:00"
+        "jsonld": "2026-11-10T10:31:10+00:00",
+        "meta": "2026-11-10T10:31:10+00:00",
+        "rss": "2026-11-10T10:31:10+00:00"
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 23.3,
-      "snippet": "Weekly Recap: Share buyback and Hong Kong tokenised deposits launch TradingView",
-      "prescore": 9,
+      "age_hours": 15.7,
+      "snippet": "Standard Chartered Pilots Redemption Liquidity Facility For Ant International's Investment In Tokenised Money Market Funds TradingView",
+      "prescore": 8,
       "prescore_reasons": [
-        "money_and_settlement: tokenized deposit",
+        "funds_and_debt: tokenized fund, tokenized money market fund",
         "generic_tokenization: tokeniz, tokenis",
-        "watched firms: HashKey, Standard Chartered",
-        "geography: Hong Kong"
+        "watched firms: Standard Chartered, Ant"
+      ],
+      "status": "kept",
+      "also_covered_by": [
+        {
+          "source": "Africa Business Communities",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeUZvaUJjb0p4bFBDclpfNHp0dDZoVDktZGpaRUg3enVuTXdDWkg1ZDg4QkMxc2xxbmJWT3lacloxOFk1T0ZjcnBGYjQyMXUyMV9GY29ZNHAzSFRpYVl4MFQtMHplSmtXQkotU1pvcWFZaFpKeHRZdGhGa3pXSktycGxVakRHVUtBeWlSVXg3bXRlSkdWMC1Lc3dWa0JRcnBiN0dVTzcxRHJVZw?oc=5",
+          "title": "Standard Chartered pilots tokenized fund liquidity facility"
+        }
+      ]
+    },
+    {
+      "title": "Spiko’s SAFO Fund Reached $2.38 Billion, Ahead of BlackRock’s BUIDL",
+      "url": "https://www.tokenpost.com/news/investing/52820",
+      "google_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZSDliaGtLWkRzdlY4X0x2bzB2M1ZyMHQ0Z0YxajBOd00waElERWpITnE0ZnVodEx2T2xhalFNYUFDNTktSUgtd2s4US00d3VDejcyc1doTmtpUQ?oc=5",
+      "source": "TOKENPOST",
+      "found_by": [
+        "google_firm"
+      ],
+      "queries": [
+        "BlackRock"
+      ],
+      "published": "2026-11-10T05:15:11+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-10T05:15:11+00:00",
+        "meta": "2026-11-10T05:15:11+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
+        "rss": "2026-11-10T05:15:11+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 21.0,
+      "snippet": "Spiko’s SAFO Fund Reached $2.38 Billion, Ahead of BlackRock’s BUIDL TOKENPOST",
+      "prescore": 8,
+      "prescore_reasons": [
+        "funds_and_debt: tokenized money market fund",
+        "generic_tokenization: tokeniz, tokenis",
+        "watched firms: Franklin Templeton, BlackRock"
       ],
       "status": "kept",
       "also_covered_by": []
     },
     {
-      "title": "U.S. Bank Launches USBDC Stablecoin",
-      "url": "https://financialit.net/news/payments/us-bank-launches-usbdc-stablecoin",
-      "google_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1VWDREVGtVVXdhcl90aTQxS2JVMVR3aVVYVWRXT2VzdmJ6dXJubFZYdWhOZFEza1NsRE9SQXB5a0lBbFMwZHRQUlB1dGVGbWhXS0pla1pCODFtMXY1azdiVU9uNU5UWEdqOG91aG5EMVBpZEtfNzJxNDRwNA?oc=5",
-      "source": "Financial IT",
+      "title": "BENJI Adds $525.1 Million in 30-Day Market Cap Growth Among Tokenized Funds",
+      "url": "https://www.tokenpost.com/news/investing/52474",
+      "google_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2SnJpbEhqZ0lmZTVqb2sxQWVLNmgyaDIxR003NWNRQVJpQ0YxV2s5N2JiSVNCa3VYYWZyLUJIb295VmROLUpQUXUwQVZfTEM0LXRHRlIzRTdCUQ?oc=5",
+      "source": "TOKENPOST",
       "found_by": [
-        "google_firm"
+        "google_firm",
+        "google_keywords"
       ],
       "queries": [
-        "Ant",
-        "Stellar",
-        "Stellar Development Foundation"
+        "\"real-world assets\" tokenization Asia",
+        "\"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\"",
+        "Franklin Templeton",
+        "HashKey"
       ],
-      "published": "2026-11-09T04:17:54+00:00",
-      "date_method": "rss",
+      "published": "2026-11-09T18:08:29+00:00",
+      "date_method": "jsonld",
       "dates_found": {
+        "jsonld": "2026-11-09T18:08:29+00:00",
+        "meta": "2026-11-09T18:08:29+00:00",
         "visible": "2026-11-10T00:00:00+00:00",
-        "rss": "2026-11-09T04:17:54+00:00"
+        "rss": "2026-11-09T18:08:29+00:00"
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 24.0,
-      "snippet": "U.S. Bank Launches USBDC Stablecoin Financial IT",
-      "prescore": 9,
+      "age_hours": 32.1,
+      "snippet": "Franklin Templeton, HashKey Bring Tokenized Money Market Fund to Asian Investors CoinMarketCap",
+      "prescore": 8,
       "prescore_reasons": [
-        "ai: agentic AI",
+        "funds_and_debt: tokenized fund, tokenized money market fund",
         "generic_tokenization: tokeniz, tokenis",
-        "watched firms: Stellar Development Foundation, Ant",
-        "geography: APAC"
+        "watched firms: Franklin Templeton, HashKey"
       ],
       "status": "kept",
-      "also_covered_by": []
+      "also_covered_by": [
+        {
+          "source": "CoinMarketCap",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMHQ3NXFDS3YwNzgzSGx4dmJwODZkUElzY3dXd1VBWF9GRy1QVk9nS1Jnb2lLOGpyX2JDSl9abkRjMVpuTk5EY20xUG9sSzFZM2ZiWHBMMnY2dDhYeDRiSjQ3NFRmeG9TZm4zdTVRNlllaUlWVXVQN0dpalF5UE5YX0xQbFZCZkRvZ04xQmI5dnZsLXJYSS1FVmc0MEYweE11RUc4?oc=5",
+          "title": "Franklin Templeton, HashKey Bring Tokenized Money Market Fund to Asian Investors"
+        },
+        {
+          "source": "OneBullEx",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOXzRBUTc2M0Z1c2hkbE9iZThmaE90TjJrelRmRUtTeWtGUHhFZ3JHZzR4cGpHWEFaZWJxSUg4X21Ia0VMVEdkVE5GN2FiaXpnU3NmQ0NQcUJoU0M2aVdET3ZTZnpMb25XbWlpTmpRLUJMMTZVOS1KSFBpZ1RqRXVTbG4xaGJxTi12S2dNM0VlS2JmWkxxN2lDcjUzRDN4b0FCMGctYS0xM2QwOFdPNVRF?oc=5",
+          "title": "Franklin Templeton BENJI Tokenized Fund Crosses $1.5 Billion Market Cap"
+        }
+      ]
     },
     {
       "title": "JAAA becomes the largest tokenized collateral asset on Aave Horizon",
@@ -307,7 +302,6 @@
         "google_firm"
       ],
       "queries": [
-        "Centrifuge",
         "Janus Henderson"
       ],
       "published": "2026-11-09T18:06:10+00:00",
@@ -320,8 +314,8 @@
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 10.2,
-      "snippet": "JAAA becomes the largest tokenized collateral asset on Aave Horizon Crypto Briefing",
+      "age_hours": 32.1,
+      "snippet": "Janus Henderson AAA CLO fund hits $47M on Aave Horizon, becoming top tokenized collateral asset. Pluang",
       "prescore": 8,
       "prescore_reasons": [
         "funds_and_debt: real-world asset, real world asset, RWA",
@@ -329,73 +323,242 @@
         "watched firms: Centrifuge, Janus Henderson"
       ],
       "status": "kept",
-      "also_covered_by": []
+      "also_covered_by": [
+        {
+          "source": "Pluang",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSk5wM3Y0WmhQS0czdkxZbWlMMy1fUlE1TmkycUpTcHUxeEtULTU1NzJQT2Z1VGkxOTNSWWh1NHRDXzczTkpoZ2FGOXQ3WmtXejdNQzBqSlhRSUhKUTBadVRsZ1FuTVRRdGxxOWx0SFFqeVZlYTdoQmppT0kyMzE5WU5sU2dkRi10Tnl4bzVfQU5FZDBscFhjV3dzTXg?oc=5",
+          "title": "Janus Henderson AAA CLO fund hits $47M on Aave Horizon, becoming top tokenized collateral asset."
+        }
+      ]
     },
     {
-      "title": "Hyperithm Portfolio Company Midas Surpasses $700 Million in Tokenized Assets After Series A Growth",
-      "url": "https://en.bloomingbit.io/feed/news/123953",
-      "google_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JYVhxWHQ0ZmlraVp1N0NqUFlidS00RzUzMmxpYjVObmtKOURnWkdTdEZGQ3hDYVRuSG03Y01NNUZNc1prX3lERjc5NXU0MzQ2aEdVbw?oc=5",
-      "source": "bloomingbit",
+      "title": "Top Cryptocurrencies to Watch in India: Features, Risks and Potential",
+      "url": "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/top-cryptocurrencies-to-watch-in-india-features-risks-and-potential",
+      "google_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTTRvLVpYeXlGaXJ1REJ3QVFYZEwtbUkySHNkOVY3Y3htTDFxSHlvYXNJcVAxZ1lfckZkc190YkN5VnpwdFFtVUt0TnhXczF2eGRxaG5fY24tZ3FKeXhpWE9uZEF6TnBXbFltVEFXWHdjYTlLWkU3VGtKaHlTR3Jqd2FnOVRxT0dtNkE0MExidEZKNWJuTVRmSzB2aHhWTXFGUUVhXzlncVR1VFp5VGZUczd5Mm8xMTBwdDNIY0tweFJhV0gtOUJzU2pJbjBtZ9IB2wFBVV95cUxQUER5V1Z6ODZTX0o4LTRxY0lPT1BBUS1WNE1sc1Rkb3RxMGdiWWdZTERfLVlNS0puOWRYdEoyOGUycmNlUWFqZGlHLTlvUVlFb3JhQjdGWlFadXhSZWdyNWhRcEdHcFNNZTNubzdOc09yVWE5NC1mV19KUnFwYnlVbFJ6U0xVSS1YUXhtTEVaMzFUaWxtOFZBR3pza180X2lJTkNkMkJVNzNoNi1tUkk5Q25sS1pCSFN3eVV2Q0VEaGd2dlZwamdFQjRFam8zWjNXWW9ISnpreDJfZkU?oc=5",
+      "source": "Analytics Insight",
+      "found_by": [
+        "google_firm",
+        "google_keywords"
+      ],
+      "queries": [
+        "\"real-world assets\" tokenization Asia",
+        "Stellar"
+      ],
+      "published": "2026-11-10T11:45:00+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-10T11:45:00+00:00",
+        "meta": "2026-11-10T11:45:00+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
+        "rss": "2026-11-10T11:45:00+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 14.5,
+      "snippet": "Top Cryptocurrencies to Watch in India: Features, Risks and Potential Analytics Insight",
+      "prescore": 7,
+      "prescore_reasons": [
+        "funds_and_debt: real-world asset, real world asset",
+        "generic_tokenization: tokeniz, tokenis",
+        "watched firms: Stellar"
+      ],
+      "status": "kept",
+      "also_covered_by": [
+        {
+          "source": "Analytics Insight",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUER5V1Z6ODZTX0o4LTRxY0lPT1BBUS1WNE1sc1Rkb3RxMGdiWWdZTERfLVlNS0puOWRYdEoyOGUycmNlUWFqZGlHLTlvUVlFb3JhQjdGWlFadXhSZWdyNWhRcEdHcFNNZTNubzdOc09yVWE5NC1mV19KUnFwYnlVbFJ6U0xVSS1YUXhtTEVaMzFUaWxtOFZBR3pza180X2lJTkNkMkJVNzNoNi1tUkk5Q25sS1pCSFN3eVV2Q0VEaGd2dlZwamdFQjRFam8zWjNXWW9ISnpreDJfZkXSAdsBQVVfeXFMUFBEeVdWejg2U19KOC00cWNJT09QQVEtVjRNbHNUZG90cTBnYllnWUxEXy1ZTUtKbjlkWHRKMjhlMnJjZVFhamRpRy05b1FZRW9yYUI3RlpRWnV4UmVncjVoUXBHR3BTTWUzbm83TnNPclVhOTQtZldfSlJxcGJ5VWxSelNMVUktWFF4bUxFWjMxVGlsbThWQUd6c2tfNF9pSU5DZDJCVTczaDYtbVJJOUNubEtaQkhTd3lVdkNFRGhndnZWcGpnRUI0RWpvM1ozV1lvSEp6a3gyX2ZF?oc=5",
+          "title": "Top Cryptocurrencies to Watch in India: Features, Risks and Potential"
+        }
+      ]
+    },
+    {
+      "title": "Ethereum Price Struggles Near USD 2,100 as Investors Await US Inflation Data",
+      "url": "https://www.analyticsinsight.net/news/ethereum-price-struggles-near-usd-2100-as-investors-await-us-inflation-data",
+      "google_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaTVHcThEY2dzb2tTZVRjNjZhNUtZLTYzV0xfU1B0ZzRFblJxcVY1ZjNrYkh0SUpCSGdFa2FudGJXVFhmY2dCcmsza0Y4Y1R0eUJUNGN3QVRMUVVQaUg0VFlad0laWFpQVFl2YVJqakdOeVpkMExVSHNCRnNkTTgyTUktY3F2b2toTnlteHhkWk9CUTNJVVYxdjQzOHVxTkNZX2xJX2lZSERTSTlaRS12cWc2WdIBwAFBVV95cUxOT1dyRWYyelhyWFR0a0ZqOVBueUlRaVZ4dnk1MnRqeUh0T09vc3NfdW1yUUpEQVhOQUlIcDFMekRNVTlMMU1VYzIxUXc0NXM5NFNrNUJ5aHpVYVJYQ0hsWVdhV3pvb3djR0xnUWdyMm5yQlFkUWw3QUFscW93eG9VVjloMjZabUhEWVQ5aGlyRFgyWkFsd3VDaHhLZjdPRlFlUUFUdjYxclYxMkY1RXdnbVRkS1BsZ1o3cEpuQnMta2o?oc=5",
+      "source": "Analytics Insight",
       "found_by": [
         "google_keywords"
       ],
       "queries": [
-        "\"real-world assets\" tokenization Asia"
+        "\"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\""
       ],
-      "published": "2026-11-09T05:42:37+00:00",
+      "published": "2026-11-10T11:30:00+00:00",
       "date_method": "jsonld",
       "dates_found": {
-        "jsonld": "2026-11-09T05:42:37+00:00",
-        "meta": "2026-11-09T05:42:37+00:00",
-        "visible": "2026-11-08T00:00:00+00:00",
-        "rss": "2026-11-09T05:42:37+00:00"
+        "jsonld": "2026-11-10T11:30:00+00:00",
+        "meta": "2026-11-10T11:30:00+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
+        "rss": "2026-11-10T11:30:00+00:00"
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 22.6,
-      "snippet": "Hyperithm Portfolio Company Midas Surpasses $700 Million in Tokenized Assets After Series A Growth bloomingbit",
-      "prescore": 8,
+      "age_hours": 14.7,
+      "snippet": "Ethereum Price Struggles Near USD 2,100 as Investors Await US Inflation Data Analytics Insight",
+      "prescore": 7,
       "prescore_reasons": [
-        "funds_and_debt: real-world asset, real world asset, RWA",
-        "money_and_settlement: stablecoin issuer",
+        "funds_and_debt: tokenized fund",
         "generic_tokenization: tokeniz, tokenis",
-        "watched firms: Franklin Templeton",
-        "forecast: forecast"
+        "watched firms: BlackRock"
       ],
       "status": "kept",
       "also_covered_by": []
     },
     {
-      "title": "Visa expands Hong Kong partnerships to enable AI payments",
-      "url": "https://hongkongbusiness.hk/news/visa-expands-hong-kong-partnerships-enable-ai-payments",
-      "google_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVnBJUDZ0SE05Nk9lNEd2RndlajdYeERveFY4Nk1FemtZUDFrRXhrdmtXNE9DNlNXVjdiZ1QySllQUk9fVnAweG02Zl9mY2V5ak5rejZJZGw1d2VlWVRZWVRCd25BUzZtYVFMcEljWmlmZWNfSjZsQXRjOHkwWEJkU05BYmxOUGxzR2thUk5ia1g?oc=5",
-      "source": "Hong Kong Business",
+      "title": "Schroders Launches First Tokenized Fund on Solana Blockchain",
+      "url": "https://coinfomania.com/schroders-launches-first-tokenized-fund-on-solana-blockchain/",
+      "google_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdGpncWFya25WekdabGI0bWdsWXFJV0kzRFZTT0ppWkNNeElLdXJ2VDhLdGtfWXcwWXVnUVFNZmRpNHRGMmp3dzFQd19JUTJrSUJ4U1cxdW9oekg3VS1qS3R0SWdqUm9iS1gyT3JHbTBqWnFvZjhSd2MwSngyUUxhR0ZoT3I4Q3l4a2ZiWDlB?oc=5",
+      "source": "Coinfomania",
       "found_by": [
+        "google_firm",
         "google_keywords"
       ],
       "queries": [
-        "\"agentic AI\" bank Hong Kong OR Singapore"
+        "\"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\"",
+        "Centrifuge"
       ],
-      "published": "2026-11-09T02:16:54+00:00",
+      "published": "2026-11-10T11:16:49+00:00",
       "date_method": "jsonld",
       "dates_found": {
-        "jsonld": "2026-11-09T02:16:54+00:00",
-        "meta": "2026-11-09T02:16:54+00:00",
-        "rss": "2026-11-09T02:16:54+00:00"
+        "jsonld": "2026-11-10T11:16:49+00:00",
+        "meta": "2026-11-10T11:16:49+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
+        "rss": "2026-11-10T11:16:49+00:00"
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 26.0,
-      "snippet": "Visa expands Hong Kong partnerships to enable AI payments Hong Kong Business",
-      "prescore": 8,
+      "age_hours": 15.0,
+      "snippet": "Schroders Launches First Tokenized Fund on Solana Blockchain Coinfomania",
+      "prescore": 7,
       "prescore_reasons": [
-        "money_and_settlement: HKDAP",
+        "funds_and_debt: tokenized fund",
         "generic_tokenization: tokeniz, tokenis",
-        "watched firms: Anchorpoint",
-        "geography: Hong Kong, Singapore"
+        "watched firms: Centrifuge"
       ],
       "status": "kept",
       "also_covered_by": []
+    },
+    {
+      "title": "Hong Kong Fintech Week 2026: Agentic AI, Tokenization, Quantum Technologies Under the Spotlight",
+      "url": "https://fintechnews.hk/42024/hong-kong-fintech-week-news/hong-kong-fintech-week-2026-agentic-ai-tokenization-quantum-technologies-under-the-spotlight/",
+      "google_url": "",
+      "source": "FinTech News Hong Kong",
+      "found_by": [
+        "rss"
+      ],
+      "queries": [],
+      "published": "2026-11-10T06:02:25+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-10T06:02:25+00:00",
+        "meta": "2026-11-10T06:02:25+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
+        "rss": "2026-11-10T06:02:25+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 20.2,
+      "snippet": "Hong Kong Fintech Week x StartmeupHK 2026 wrapped up on November 06, ending a week of dialogue, business exchanges, startup displays, and ecosystem events that gathered policymakers, regulators, entrepreneurs, investors, and innovators globally. Organized by the Financial Services and the Treasury Bureau, the Commerce and Economic Development Bureau and Invest Hong Kong (InvestHK), in collaboration [...] The post Hong Kong Fintech Week 2026: Agentic AI, Tokenization, Quantum Technologies Under the Spotlight appeared first on Fintech Hong Kong .",
+      "prescore": 7,
+      "prescore_reasons": [
+        "money_and_settlement: tConnect",
+        "ai: agentic AI",
+        "generic_tokenization: tokeniz, tokenis",
+        "geography: Hong Kong, HKMA, SFC"
+      ],
+      "status": "kept",
+      "also_covered_by": []
+    },
+    {
+      "title": "Schroders Emerging-Market Bond Strategy Moves Onto Solana Through Centrifuge",
+      "url": "https://www.tradingview.com/news/newsbtc:37840034d094b:0-schroders-emerging-market-bond-strategy-moves-onto-solana-through-centrifuge/",
+      "google_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa3VmSjhXeGFtb29MT1cxU1lXSEVYTmNuR0Rtd3BrSXZiemxCUmthSFMycDVDSWNka0ZWdnpkVUpGcE9DX0ZPVnd4aHBnRjAtVFdQN254N05xdGxYUzRVbWFxSGFPNWU1alYtSEFsc054Q29jLUZMUnlVczA0RFNuazR5OEo2RUEzZHZjR0hhMmxNZ0ZWMUVsQkcycU5jSVQxbkI2Y0Q2Si0zRW5oY0Qtc09EWnV4eTBoSDN3MVhzTk1HVGpXWGhZZzVmYXl2SzA?oc=5",
+      "source": "TradingView",
+      "found_by": [
+        "google_firm",
+        "google_keywords"
+      ],
+      "queries": [
+        "\"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\"",
+        "Centrifuge"
+      ],
+      "published": "2026-11-10T01:00:00+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-10T01:00:00+00:00",
+        "meta": "2026-11-10T01:00:00+00:00",
+        "rss": "2026-11-10T01:00:00+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 25.2,
+      "snippet": "Schroders Emerging-Market Bond Strategy Moves Onto Solana Through Centrifuge TradingView",
+      "prescore": 7,
+      "prescore_reasons": [
+        "funds_and_debt: tokenized fund, RWA, onchain fund",
+        "generic_tokenization: tokeniz, tokenis",
+        "watched firms: Centrifuge"
+      ],
+      "status": "kept",
+      "also_covered_by": [
+        {
+          "source": "KuCoin",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRmNtUjY5eEFhMV8tTTdxcm4xYnZzcVFfa3lXc19nZmp5YWtIOGJXWVdQTWQ2UGFEckJadXZzdmtDWmlqRjVmaUQxTnVocGpEY0owS0EzSS1FOVZVRS1qSGtKd3kzOGJrNDM0akZ5cENDYjIxblpNaHpjc2hjU2RDRlFTOTRERTRnRWk2b3Z6Wm5oQ1JwdFVYTTBLenY4ZEcyTzZqY3Qycw?oc=5",
+          "title": "Global Asset Manager Schroders Brings Emerging Market Bond Fund to Solana"
+        }
+      ]
+    },
+    {
+      "title": "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions",
+      "url": "https://www.lcx.com/en/cryptonews/blackrock-bitcoin-etf-outflows-hit-166b-over-seven-trading-sessions",
+      "google_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdVJ6UnBBWlB3Rjl4ZGpIRFRobEpMVFVNRFpRRmQ1aU1oME8yN3YySnFVMVplMExXTDQzeVp3enpLQUdlQUxIOUc1QTlndUZpUURaSFNHbjEwV2Y5NWc4aGNVSDNLdllKaWZsWnR3T01HTDE5V3hZelBDUHpTOHY5TGFtc1RwT1puUElWMXFuRmR2dFdDdlBnVTMxWlZkQy1JVU1V?oc=5",
+      "source": "LCX Exchange",
+      "found_by": [
+        "google_firm"
+      ],
+      "queries": [
+        "BlackRock"
+      ],
+      "published": "2026-11-10T00:00:00+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-10T00:00:00+00:00",
+        "meta": "2026-11-10T00:00:00+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
+        "rss": "2026-11-09T08:00:00+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 26.2,
+      "snippet": "BlackRock sees record Bitcoin whale demand for IBIT conversions despite ETF outflows Crypto News",
+      "prescore": 7,
+      "prescore_reasons": [
+        "funds_and_debt: real-world asset, real world asset",
+        "generic_tokenization: tokeniz, tokenis",
+        "watched firms: BlackRock"
+      ],
+      "status": "kept",
+      "also_covered_by": [
+        {
+          "source": "99Bitcoins",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQmo4T3lGbVM2dW1TNlVqaUZnMm54d2dWV3FVWFVnc3pSYlU5OHVqOE1vVU1OR2pWWTNRNHIxTi1JX3JBYVlGTmhIQm95VHl1elF0SkZuYWJFUzlob3YxajFNdzdQVzRmS2paTFhGTkRCaWQtTFF0dklyc3llcWVVdElUMmV3Mk1oTkE?oc=5",
+          "title": "BlackRock Bitcoin ETF Sees $213M Outflow as CPI Report Tests Crypto Markets"
+        },
+        {
+          "source": "Crypto News",
+          "url": "https://crypto.news/blackrock-bitcoin-whales-ibit-conversions-security/",
+          "title": "BlackRock sees record Bitcoin whale demand for IBIT conversions despite ETF outflows"
+        },
+        {
+          "source": "TOKENPOST",
+          "url": "https://www.tokenpost.com/news/investing/52973",
+          "title": "BlackRock's Bitcoin ETF Posts Seventh Straight Outflow of $213 Million"
+        },
+        {
+          "source": "Blockchain News",
+          "url": "https://blockchain.news/flashnews/blackrock-ibit-213-2m-bitcoin-etf-outflow",
+          "title": "Blackrock IBIT: $213.2M Bitcoin ETF Outflow"
+        }
+      ]
     },
     {
       "title": "XRP and Stellar Both Fell 12% in a Week. ChatGPT AI Says Which Could Be Worth More by 2028",
@@ -419,84 +582,13 @@
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 6.2,
+      "age_hours": 28.2,
       "snippet": "XRP and Stellar Both Fell 12% in a Week. ChatGPT AI Says Which Could Be Worth More by 2028 24/7 Wall St.",
       "prescore": 7,
       "prescore_reasons": [
         "funds_and_debt: real-world asset, real world asset",
         "generic_tokenization: tokeniz, tokenis",
         "watched firms: Stellar"
-      ],
-      "status": "kept",
-      "also_covered_by": []
-    },
-    {
-      "title": "BENJI Adds $525.1 Million in 30-Day Market Cap Growth Among Tokenized Funds",
-      "url": "https://www.tokenpost.com/news/investing/52474",
-      "google_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2SnJpbEhqZ0lmZTVqb2sxQWVLNmgyaDIxR003NWNRQVJpQ0YxV2s5N2JiSVNCa3VYYWZyLUJIb295VmROLUpQUXUwQVZfTEM0LXRHRlIzRTdCUQ?oc=5",
-      "source": "TOKENPOST",
-      "found_by": [
-        "google_firm",
-        "google_keywords"
-      ],
-      "queries": [
-        "\"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\"",
-        "Franklin Templeton"
-      ],
-      "published": "2026-11-09T18:08:29+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-09T18:08:29+00:00",
-        "meta": "2026-11-09T18:08:29+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T18:08:29+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 10.2,
-      "snippet": "BENJI Adds $525.1 Million in 30-Day Market Cap Growth Among Tokenized Funds TOKENPOST",
-      "prescore": 7,
-      "prescore_reasons": [
-        "funds_and_debt: tokenized fund",
-        "generic_tokenization: tokeniz, tokenis",
-        "watched firms: Franklin Templeton"
-      ],
-      "status": "kept",
-      "also_covered_by": [
-        {
-          "source": "OneBullEx",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOXzRBUTc2M0Z1c2hkbE9iZThmaE90TjJrelRmRUtTeWtGUHhFZ3JHZzR4cGpHWEFaZWJxSUg4X21Ia0VMVEdkVE5GN2FiaXpnU3NmQ0NQcUJoU0M2aVdET3ZTZnpMb25XbWlpTmpRLUJMMTZVOS1KSFBpZ1RqRXVTbG4xaGJxTi12S2dNM0VlS2JmWkxxN2lDcjUzRDN4b0FCMGctYS0xM2QwOFdPNVRF?oc=5",
-          "title": "Franklin Templeton BENJI Tokenized Fund Crosses $1.5 Billion Market Cap"
-        }
-      ]
-    },
-    {
-      "title": "Ondo Claims the Tokenisation Leadership on the Back of Securitize’s Shrinking Assets",
-      "url": "https://www.tradingview.com/news/financemagnates:f35aed148094b:0-ondo-claims-the-tokenisation-leadership-on-the-back-of-securitize-s-shrinking-assets/",
-      "google_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMWdXdDJZdWJNZzhDMVNZMmxYNWt3R01LYWtBcFA5NHlLQkYyOHBNUDVCeEhWcXZjMlRncy1ycTNEV3VmZkhETDEyVGFWSGdfSDY5cVowSUdMU0ZoZ1hnWWxhMENxRnAyVk9Bc0NqNG03UEFHRDJQZThCQjl3b00wVnBNVmRIbFJwQTNOSFFvamV4MTdGaUZzcE5jck1mcC1LclFYNk1pX1ZObFF0N2FTcXdIWFRpa3RRRHRnVElKNVRnaDA1R3VRbDVLTWdiOFRma19kNzlOS1pxcHlPcVAzRXY4eTQ?oc=5",
-      "source": "TradingView",
-      "found_by": [
-        "google_firm"
-      ],
-      "queries": [
-        "BlackRock"
-      ],
-      "published": "2026-11-09T15:06:00+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-09T15:06:00+00:00",
-        "meta": "2026-11-09T15:06:00+00:00",
-        "rss": "2026-11-09T15:06:00+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 13.2,
-      "snippet": "Ondo Claims the Tokenisation Leadership on the Back of Securitize’s Shrinking Assets TradingView",
-      "prescore": 7,
-      "prescore_reasons": [
-        "funds_and_debt: RWA",
-        "generic_tokenization: tokeniz, tokenis",
-        "watched firms: BlackRock"
       ],
       "status": "kept",
       "also_covered_by": []
@@ -519,12 +611,12 @@
       "dates_found": {
         "jsonld": "2026-11-09T14:18:41+00:00",
         "meta": "2026-11-09T14:18:41+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
         "rss": "2026-11-09T14:18:41+00:00"
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 14.0,
+      "age_hours": 35.9,
       "snippet": "JINGDONG Coinlink Website Returns 502 Error in Nov. 9 Check TOKENPOST",
       "prescore": 7,
       "prescore_reasons": [
@@ -536,97 +628,32 @@
       "also_covered_by": []
     },
     {
-      "title": "Tokenized ETF market cap grows fastest on BNB Chain over 30 days",
-      "url": "https://cryptobriefing.com/tokenized-etf-market-cap-bnb-chain-growth/",
-      "google_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hbzk3UXhNZWZmcVpLQ0JPcnlWNHgxUUg1ZjR4eTJhdWdlZGJCM0kwdE1kZmxXQW43SjBWWGVObmc1RXI3eUtodkkwRW8wR2NBYzAza0F5ODlLc0lUU1pZMFozR0JqUkxreHlBOXBKcTZMMjVCaExzVQ?oc=5",
-      "source": "Crypto Briefing",
+      "title": "UAE Banks Prepare to Bring Virtual Assets Into Mainstream Finance",
+      "url": "https://www.kucoin.com/news/flash/uae-banks-prepare-to-bring-virtual-assets-into-mainstream-finance",
+      "google_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZm4zRm1YRHB4NWh6VlN6M0swTEgwanI5UEt3WFYyaU5pR1FidnQ3N2ZuTkRoZ09uWWJNYjBaemJXZ0g3ZzlYdlNRMFpUNE9UNVJvU1Vhb3FWcTRkU0VEbW1TVFU3eWdCMFBGM1ZCRzIzMU1HUVVlS1p3TlEyRTlhRWVHVWZMS0hpcHlscndibjJmSHZFTkIyUFpWQUxXcnhR?oc=5",
+      "source": "KuCoin",
       "found_by": [
-        "google_firm"
+        "google_keywords"
       ],
       "queries": [
-        "HashKey"
+        "\"tokenized deposits\" OR \"tokenised deposits\" OR \"Project Ensemble\" OR EnsembleTX"
       ],
-      "published": "2026-11-09T10:35:11+00:00",
+      "published": "2026-11-10T21:23:42+00:00",
       "date_method": "jsonld",
       "dates_found": {
-        "jsonld": "2026-11-09T10:35:11+00:00",
-        "meta": "2026-11-09T10:35:11+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T10:35:11+00:00"
+        "jsonld": "2026-11-10T21:23:42+00:00",
+        "meta": "2026-11-10T21:23:42+00:00",
+        "rss": "2026-11-10T21:23:42+00:00"
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 17.7,
-      "snippet": "Tokenized ETF market cap grows fastest on BNB Chain over 30 days Crypto Briefing",
-      "prescore": 7,
+      "age_hours": 4.9,
+      "snippet": "UAE Banks Prepare to Bring Virtual Assets Into Mainstream Finance KuCoin",
+      "prescore": 6,
       "prescore_reasons": [
-        "funds_and_debt: tokenized fund, real-world asset, real world asset",
-        "generic_tokenization: tokeniz, tokenis",
-        "watched firms: Stellar"
-      ],
-      "status": "kept",
-      "also_covered_by": []
-    },
-    {
-      "title": "Midterm Results Trigger Record Nasdaq Sell-off, Rattling Chip and AI Funds",
-      "url": "https://www.thedailyupside.com/etf/industry-news-etf/midterm-results-trigger-record-nasdaq-sell-off-rattling-chip-and-ai-funds/",
-      "google_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT3ZyMzJOY1JzLVZOWkFRWkticDdfSFE3VEtMNWFZekZfTC13TU5vLVZ6Nk94UnZaejlTRmp1U19LcXhmOXdDbkFLR28yRGh1alhVdlZVSVJZVlprLWF3aEV0elBjSG04bE1heFVPVjZnLTY4eUhnX2d4emtqZVhxRXlVRGtraUowRnR0Y2ZDMUMzUm4zTjMtcUFGb2R1djg2WjhkWFJ3UVEyWGJuMDhOb09jbzFSSXNvbFJ5azRnaXJucjBaeFE?oc=5",
-      "source": "The Daily Upside",
-      "found_by": [
-        "google_firm"
-      ],
-      "queries": [
-        "Janus Henderson"
-      ],
-      "published": "2026-11-09T05:02:00+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-09T05:02:00+00:00",
-        "meta": "2026-11-09T05:02:00+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T05:02:00+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 23.3,
-      "snippet": "Midterm Results Trigger Record Nasdaq Sell-off, Rattling Chip and AI Funds The Daily Upside",
-      "prescore": 7,
-      "prescore_reasons": [
-        "generic_tokenization: tokeniz, tokenis",
-        "watched firms: Janus Henderson, Franklin Templeton",
-        "geography: APAC, Asia-Pacific, Asia"
-      ],
-      "status": "kept",
-      "also_covered_by": []
-    },
-    {
-      "title": "Weekly Recap: Tender cap raised to $1.5B and RedCoin reaches 50,000 users",
-      "url": "https://www.tradingview.com/news/tradingview:ac54239978d32:0-weekly-recap-tender-cap-raised-to-1-5b-and-redcoin-reaches-50-000-users/",
-      "google_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZ3BkcGM2YjJ6eWdxdzVoNkYzN1M1WW1ab181cmtkejhtVEw5YndxTWRSNHNtcGF1RExyNzVxRTRSa3ZjU2R2RFItNTliOVJ2blNHbGVndUNXMWxoaEpJMktnOVI3RDQ2Z2FibWxTNl9iWm5JTWJWUjJnZUhPR0hnZ1dzcnBKb2FuSW1sR25TdzRMWkJwYWhsYkl1UjE2dnlPc3dVVVA0LXczNG5JRjR1ZldxajJJRVNnMnZleHFLWlRjTFNrZDFfQlMwelVNUQ?oc=5",
-      "source": "TradingView",
-      "found_by": [
-        "google_firm"
-      ],
-      "queries": [
-        "HSBC"
-      ],
-      "published": "2026-11-09T05:00:00+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-09T05:00:00+00:00",
-        "meta": "2026-11-09T05:00:00+00:00",
-        "visible": "2026-11-19T00:00:00+00:00",
-        "rss": "2026-11-09T05:00:00+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 23.3,
-      "snippet": "Weekly Recap: Tender cap raised to $1.5B and RedCoin reaches 50,000 users TradingView",
-      "prescore": 7,
-      "prescore_reasons": [
-        "generic_tokenization: tokeniz, tokenis",
-        "watched firms: HSBC, Standard Chartered",
-        "geography: Hong Kong, Singapore, MAS"
+        "funds_and_debt: tokenized bond, real-world asset, real world asset",
+        "money_and_settlement: tokenized deposit",
+        "generic_tokenization: tokeniz, tokenis"
       ],
       "status": "kept",
       "also_covered_by": []
@@ -652,7 +679,7 @@
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 2.7,
+      "age_hours": 24.7,
       "snippet": "Tokenized Gold Ranks 22nd by AUM Among Global Gold Funds Coinfomania",
       "prescore": 6,
       "prescore_reasons": [
@@ -684,7 +711,7 @@
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 2.8,
+      "age_hours": 24.7,
       "snippet": "[WDAF 2026] Tokenization must unlock capital, not just digitize assets: experts The Korea Herald",
       "prescore": 6,
       "prescore_reasons": [
@@ -711,12 +738,12 @@
       "dates_found": {
         "jsonld": "2026-11-09T17:36:28+00:00",
         "meta": "2026-11-09T17:36:28+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
         "rss": "2026-11-09T17:36:28+00:00"
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 10.7,
+      "age_hours": 32.6,
       "snippet": "FCA Reviews Tokenized Gold’s Role in London’s $1.2 Trillion Market TOKENPOST",
       "prescore": 6,
       "prescore_reasons": [
@@ -729,168 +756,66 @@
       "also_covered_by": []
     },
     {
-      "title": "Progmat and Digital Asset Partner to Tokenize Japanese Government Bonds for 24/7 Settlement",
-      "url": "https://www.kucoin.com/news/flash/progmat-and-digital-asset-partner-to-tokenize-japanese-government-bonds-for-24-7-settlement",
-      "google_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTHBBNE5wT3FiZ3VCNzE3VnJuX2JHM3AybExNOFRRWWl0NjJ3Zkp2ajF1UElTOGVQc0Y3aWZnaF91VDk2VjBqZmVYdlZxMlhsNWtPZHRNNGY1ejZCRGktZkJ5YnpZRXUyYUJXRTJyR3JVRjlwMGJqWndsYzluUlhsbjVRYVh0aFVmVnphR2NQQlZOdFJ2X0REeDhvOVB5WTlMZjZZbFZueFZPeF9Rc0JJcndNZmptQ2FMUkZjRTBIVkRlMVE?oc=5",
-      "source": "KuCoin",
+      "title": "Is Trump Nixon 2.0 For Gold?",
+      "url": "https://silvertrade.com/news/precious-metals/silver-news/is-trump-nixon-2-0-for-gold/",
+      "google_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZldIVVgyN1NiZ2k1c1hfVk9ZbmVSZE8tWVhpSVJtelVtdUNZbFRYYjJqSUVFdWFGenpNX3VfZjZRUE1OU2NXTzRLZWlhTk5MZWpsaE9nY3hsbW5YWC1sTXgzdnJ3cE93TWJfdEF3WXRWY2tpRUN2T3hEQkZ2T0g5aGxkRDVZd19GWG1UUHJ3?oc=5",
+      "source": "SilverTrade",
       "found_by": [
         "google_keywords"
       ],
       "queries": [
-        "\"tokenized deposits\" OR \"tokenised deposits\" OR \"Project Ensemble\" OR EnsembleTX"
+        "\"tokenized gold\" OR \"tokenised gold\" OR \"gold token\" Hong Kong OR Singapore"
       ],
-      "published": "2026-11-09T09:23:16+00:00",
+      "published": "2026-11-10T14:43:57+00:00",
       "date_method": "jsonld",
       "dates_found": {
-        "jsonld": "2026-11-09T09:23:16+00:00",
-        "meta": "2026-11-09T09:23:16+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T09:23:16+00:00"
+        "jsonld": "2026-11-10T14:43:57+00:00",
+        "meta": "2026-11-10T14:43:57+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
+        "rss": "2026-11-10T14:43:57+00:00"
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 18.9,
-      "snippet": "Progmat and Digital Asset Partner to Tokenize Japanese Government Bonds for 24/7 Settlement KuCoin",
-      "prescore": 6,
+      "age_hours": 11.5,
+      "snippet": "Is Trump Nixon 2.0 For Gold? SilverTrade",
+      "prescore": 5,
       "prescore_reasons": [
-        "funds_and_debt: real-world asset, real world asset, RWA",
-        "money_and_settlement: tokenized deposit",
-        "generic_tokenization: tokeniz, tokenis"
-      ],
-      "status": "kept",
-      "also_covered_by": []
-    },
-    {
-      "title": "Solana Company to Expand Asia-Pacific Tokenization Services From Hong Kong Hub",
-      "url": "https://en.bloomingbit.io/feed/news/123942",
-      "google_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xZEpzLTlEQUNVcVdNMVMzdUtrQS1hMVIyRTJiRkFqdTV6eFVVVEV2anhRZ1FLZVBzbUhkSnMtdm1hdXZ0WTAtMTVGYlNiUnM5RFVRNQ?oc=5",
-      "source": "bloomingbit",
-      "found_by": [
-        "google_firm"
-      ],
-      "queries": [
-        "Anchorpoint"
-      ],
-      "published": "2026-11-09T02:27:18+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-09T02:27:18+00:00",
-        "meta": "2026-11-09T02:27:18+00:00",
-        "visible": "2026-11-08T00:00:00+00:00",
-        "rss": "2026-11-09T02:27:18+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 25.9,
-      "snippet": "Solana Company to Expand Asia-Pacific Tokenization Services From Hong Kong Hub bloomingbit",
-      "prescore": 6,
-      "prescore_reasons": [
+        "commodities: tokenized gold",
         "generic_tokenization: tokeniz, tokenis",
-        "watched firms: Anchorpoint, HSBC",
-        "geography: Hong Kong, Asia-Pacific, Asia",
+        "geography: Hong Kong, Singapore, Asia",
         "forecast: forecast"
       ],
       "status": "kept",
       "also_covered_by": []
     },
     {
-      "title": "Coinbase Taps Morpho to Offer Gold-Backed USDC Loans",
-      "url": "https://fintechnews.sg/140761/crypto/coinbase-gold-backed-loans-paxg-morpho/",
-      "google_url": "",
-      "source": "FinTech News Singapore",
+      "title": "Beau Raises Hypothetical Clearing Idea for Tokenized Deposits",
+      "url": "https://www.tokenpost.com/news/technology/52928",
+      "google_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HZkpEak5mM19waC1pcGk2NkRwa25LRURZTm9lTHBRYmNUZk51cUNRdTdJT1l4bXB2UjhNM2tBMlpZV2NKVDViMFMyZnJ1RndGZEMzb0hwckZYVXc?oc=5",
+      "source": "www.tokenpost.com",
       "found_by": [
-        "google_keywords",
-        "rss"
+        "google_keywords"
       ],
       "queries": [
-        "\"tokenized gold\" OR \"tokenised gold\" OR \"gold token\" Hong Kong OR Singapore"
+        "\"tokenized deposits\" OR \"tokenised deposits\" OR \"Project Ensemble\" OR EnsembleTX"
       ],
-      "published": "2026-11-09T02:09:06+00:00",
+      "published": "2026-11-10T08:37:29+00:00",
       "date_method": "jsonld",
       "dates_found": {
-        "jsonld": "2026-11-09T02:09:06+00:00",
-        "meta": "2026-11-09T02:09:06+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T02:09:06+00:00"
+        "jsonld": "2026-11-10T08:37:29+00:00",
+        "meta": "2026-11-10T08:37:29+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
+        "rss": "2026-11-10T08:37:29+00:00"
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 26.2,
-      "snippet": "Coinbase has added tokenised gold as collateral for its crypto-backed loans. PAX Gold (PAXG) is the first non-crypto asset that Coinbase Borrow accepts, alongside bitcoin, ether, XRP and solana. Coinbase users can borrow stablecoins against their tokenised gold without leaving the Coinbase app. The offering introduces a USDC/PAXG market on Morpho, which operates on Base, [...] The post Coinbase Taps Morpho to Offer Gold-Backed USDC Loans appeared first on Fintech Singapore .",
-      "prescore": 6,
+      "age_hours": 17.6,
+      "snippet": "Beau Raises Hypothetical Clearing Idea for Tokenized Deposits www.tokenpost.com",
+      "prescore": 5,
       "prescore_reasons": [
-        "commodities: tokenized gold",
+        "money_and_settlement: tokenized deposit",
         "generic_tokenization: tokeniz, tokenis",
-        "geography: Singapore, Asia"
-      ],
-      "status": "kept",
-      "also_covered_by": [
-        {
-          "source": "Fintech Singapore",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS2hQdjZIWXhnSmNJU1p0WEVvcUdnT0plNjhucGZyUUo2YzJxd0EtcXN3NWEzeGQ4RTQ3V3FldHNCdDdvUjAtcXRCeVZNSUZtVTZXWXQ5R2JYMTJVR0xDb0dyWkdUWkhlM1R6ZEZhVWhGaG9udkFWXy0xOWtDUW1qalVB?oc=5",
-          "title": "Coinbase Taps Morpho to Offer Gold-Backed USDC Loans"
-        }
-      ]
-    },
-    {
-      "title": "The Solana Company Targets Hong Kong for Massive APAC Expansion",
-      "url": "https://news.bitcoin.com/finance/the-solana-company-targets-hong-kong-for-massive-apac-expansion/",
-      "google_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU1ZlaWsybTU2cnlQU05RTFRWSGxpX1pUU0c4Zi1maU45Uk1hclREMkQzVHpSSlk5RVFNQzIzdC1wSnRzMlVNQWxFZWpzTVFGdG1ZNW9NbXNkWHZ4eHAtN211Wms5a1ktbmEwVW1BZXJTdnlLTFVJRkhlWGo5ZEJJOS1pR1lMaG9aTHpKQ2c3TEhmY0tnOWh5TmxqelhmQQ?oc=5",
-      "source": "Bitcoin News",
-      "found_by": [
-        "google_firm"
-      ],
-      "queries": [
-        "HSBC"
-      ],
-      "published": "2026-11-09T00:30:45+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-09T00:30:45+00:00",
-        "meta": "2026-11-09T00:30:45+00:00",
-        "visible": "2026-11-08T00:00:00+00:00",
-        "rss": "2026-11-08T21:30:00+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 27.8,
-      "snippet": "The Solana Company Targets Hong Kong for Massive APAC Expansion Bitcoin News",
-      "prescore": 6,
-      "prescore_reasons": [
-        "funds_and_debt: real-world asset, real world asset, RWA",
-        "generic_tokenization: tokeniz, tokenis",
-        "geography: Hong Kong, APAC, Asia-Pacific"
-      ],
-      "status": "kept",
-      "also_covered_by": []
-    },
-    {
-      "title": "Franklin Templeton's CEO sees collateral use driving tokenisation",
-      "url": "https://www.financeasia.com/article/franklin-templetons-ceo-sees-collateral-use-driving-tokenisation/508555",
-      "google_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcGhRT0dsMnRKZUVlR2ZRdHBMNFJGTmdWRF90aHdQTWt3cm1zN1g4X3dtYmpkRHo0clJjVHVseGZoMERTYXFGa3hVcHNCYTJ4X0FjVnRneU40ZFZ2bTFORkg3MFZkWm02QlFQakY2bEZCSUx5TlNxV1NrVGdZcFM0RzVPVlhwV2gxNlBFMy02RVlLM1NCc010cXV2RTc3MEtwOEdNa3VJT2dXX0k?oc=5",
-      "source": "FinanceAsia",
-      "found_by": [
-        "google_firm"
-      ],
-      "queries": [
-        "Franklin Templeton"
-      ],
-      "published": "2026-11-08T17:28:00+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-08T17:28:00+00:00",
-        "visible": "2026-11-08T00:00:00+00:00",
-        "rss": "2026-11-09T01:58:06+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 34.8,
-      "snippet": "Franklin Templeton's CEO sees collateral use driving tokenisation FinanceAsia",
-      "prescore": 6,
-      "prescore_reasons": [
-        "generic_tokenization: tokeniz, tokenis",
-        "watched firms: Franklin Templeton",
-        "geography: Hong Kong, Singapore"
+        "geography: Hong Kong"
       ],
       "status": "kept",
       "also_covered_by": []
@@ -916,7 +841,7 @@
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 2.3,
+      "age_hours": 24.2,
       "snippet": "Financial institutions eye Asian gold hubs like Singapore: DBS survey The Straits Times",
       "prescore": 5,
       "prescore_reasons": [
@@ -929,33 +854,63 @@
       "also_covered_by": []
     },
     {
-      "title": "X Finance Bull Cites Old Stellar Test in Post Bullish on XRP, XLM",
-      "url": "https://www.tokenpost.com/news/investing/52015",
-      "google_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5HWTVwYWMzWTlBUVE5N21hd3dBbUFoOFNlZ2ZFdUdiZXdvVG9tZkh6ZTNUTlk5UHRjdWNpcm9ZcUMzQU5zOUtXaGZhVDVnRUJjZ1piLWoxZ2ViZw?oc=5",
-      "source": "www.tokenpost.com",
+      "title": "StanChart Pilots Tokenised Fund for Corporate Treasuries",
+      "url": "https://thefullfx.com/stanchart-pilots-tokenised-fund-for-corporate-treasuries/",
+      "google_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWWYtMTh2cnpTeG9UWTlCTThOb1VIeFhVaTdpTk9FUHRaMXNFcUhLcUhaTGwwS0NFMERVTC1PYjg5aGlUbTl3Z2xzWGw3MW8tZ3ZOcUY1a1pmallwRWxnTEFpdHF2MkZuUHhGS0tvaXJ2NFBBZk80OVZOamo1WFR6WlZfemFQUQ?oc=5",
+      "source": "The Full FX",
+      "found_by": [
+        "google_firm",
+        "google_keywords"
+      ],
+      "queries": [
+        "\"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\"",
+        "Ant",
+        "Standard Chartered"
+      ],
+      "published": "2026-11-11T01:07:25+00:00",
+      "date_method": "rss",
+      "dates_found": {
+        "rss": "2026-11-11T01:07:25+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 1.1,
+      "snippet": "StanChart Pilots Tokenised Fund for Corporate Treasuries The Full FX",
+      "prescore": 4,
+      "prescore_reasons": [
+        "funds_and_debt: tokenized fund",
+        "generic_tokenization: tokeniz, tokenis"
+      ],
+      "status": "kept",
+      "also_covered_by": []
+    },
+    {
+      "title": "At Stellar's Meridian conference, Anthony Scaramucci tells banks to \"kill the iPod in your business\"",
+      "url": "https://tearsheet.co/partner/at-stellars-meridian-conference-anthony-scaramucci-tells-banks-to-kill-the-ipod-in-your-business/",
+      "google_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRWdkQXNJWlljWUI3QWJxUjRKdVlxb2tEVllFUzYwQndNLVk3Z0xfcElQZWZVbUJmR3h3ZDd0cVNKczFtWGNVZHpZaE8wV3hwSTFkb0YzY1dBRko2c3Bnc3ltUlpaUUtXUmxSQ1BUMUpZLXNwdEM5cXRIMGNiRXJqTHBVeThWLUVXN2xWYTdsMW1SZ1c3Q0N3b29kU2FWc29iakZfYzFTRHB5Z1R0WEJwY0F5N2JsaWYtSm1nQVR4dlFRQ1hx?oc=5",
+      "source": "Tearsheet",
       "found_by": [
         "google_firm"
       ],
       "queries": [
-        "Franklin Templeton",
         "Stellar"
       ],
-      "published": "2026-11-09T02:23:13+00:00",
+      "published": "2026-11-10T13:00:00+00:00",
       "date_method": "jsonld",
       "dates_found": {
-        "jsonld": "2026-11-09T02:23:13+00:00",
-        "meta": "2026-11-09T02:23:13+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T02:23:00+00:00"
+        "jsonld": "2026-11-10T13:00:00+00:00",
+        "meta": "2026-11-10T13:00:00+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
+        "rss": "2026-11-10T13:14:29+00:00"
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 25.9,
-      "snippet": "X Finance Bull Cites Old Stellar Test in Post Bullish on XRP, XLM www.tokenpost.com",
-      "prescore": 5,
+      "age_hours": 13.2,
+      "snippet": "At Stellar's Meridian conference, Anthony Scaramucci tells banks to \"kill the iPod in your business\" Tearsheet",
+      "prescore": 4,
       "prescore_reasons": [
         "generic_tokenization: tokeniz, tokenis",
-        "watched firms: Stellar Development Foundation, Franklin Templeton"
+        "watched firms: Stellar"
       ],
       "status": "kept",
       "also_covered_by": []
@@ -981,7 +936,7 @@
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 2.4,
+      "age_hours": 24.3,
       "snippet": "$23.9M: Pendle’s Tokenized Fund Sees Rapid DeFi Growth Coinfomania",
       "prescore": 4,
       "prescore_reasons": [
@@ -1012,326 +967,12 @@
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 2.4,
+      "age_hours": 24.4,
       "snippet": "[WDAF 2026] Standard Chartered sees liquidity, not speed, as future of payments The Korea Herald",
       "prescore": 4,
       "prescore_reasons": [
         "generic_tokenization: tokeniz, tokenis",
         "watched firms: Standard Chartered"
-      ],
-      "status": "kept",
-      "also_covered_by": []
-    },
-    {
-      "title": "Ethereum stablecoin and tokenized fund market cap drops 19% to $168B",
-      "url": "https://cryptobriefing.com/ethereum-stablecoin-tokenized-fund-market-drops-19/",
-      "google_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR3JJNEhjQVZhaFVOc2FaX29NYTI3R0VKYnNvSFFadVdwbnNxbjNiRzFyYmU0aUZPek1oX2wxSHA1UUgzQm1mVnd6bDdxRTRLX1ZoTGp4WHdUUEhXTnU1bVFhVHhYNDN6MGZYVWdvY2JrTDI1VzJjMzEzaEprYkFFSURvOVE?oc=5",
-      "source": "Crypto Briefing",
-      "found_by": [
-        "google_keywords"
-      ],
-      "queries": [
-        "\"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\""
-      ],
-      "published": "2026-11-09T19:25:20+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-09T19:25:20+00:00",
-        "meta": "2026-11-09T19:25:20+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T19:25:20+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 8.9,
-      "snippet": "ETH-based stablecoins, tokenized fund market cap down 19% since Kelp DAO hack CoinNess",
-      "prescore": 4,
-      "prescore_reasons": [
-        "funds_and_debt: tokenized fund",
-        "generic_tokenization: tokeniz, tokenis"
-      ],
-      "status": "kept",
-      "also_covered_by": [
-        {
-          "source": "Pluang",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdEN6Z2FHbmNVOXFDVGtWZ0tleUtWMXVpWHlDa0p0MkFIR0JuZWFvRVIzdy0wYzVDQVNxLUhQN2xuTUo1YVp1T1JqT2RIaUxlX25XTHZQMUQ0MFFpMl96NmxiZ1E4T3VWck5tWjJJRXNSVGNxLS1GRkNtWUtVd3NVTzBndkFaUXNITlItVVgwMHc1UzU5NFhDUHowQnl6R0F4YTBj?oc=5",
-          "title": "Ethereum stablecoin market shrinks 19% after $2..."
-        },
-        {
-          "source": "CoinNess",
-          "url": "https://coinness.com/en/news/1174946",
-          "title": "ETH-based stablecoins, tokenized fund market cap down 19% since Kelp DAO hack"
-        }
-      ]
-    },
-    {
-      "title": "Token Terminal Reports BENJI Gained $525.1M in Market Cap",
-      "url": "https://coinfomania.com/token-terminal-reports-benji-gained-525-1m-in-market-cap/",
-      "google_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSklPZlgzVUFrN3pfb1lJT0JmYVdsdFJRMzU3dEFkdEx5blVULUdPbUFpNzM3eVNjMEVvNGRpb2t4V2RqN3BwUDJuMFphTmgyQWZSbzB2a3E5Nlp4SGFKbFJBQnpHVjRaN2VnSnR5OFE3Z0dMVG9rQ1pIa0V2YjVfTVR1VlRsWnNK?oc=5",
-      "source": "Coinfomania",
-      "found_by": [
-        "google_keywords"
-      ],
-      "queries": [
-        "\"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\""
-      ],
-      "published": "2026-11-09T17:54:49+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-09T17:54:49+00:00",
-        "meta": "2026-11-09T17:54:49+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T17:54:49+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 10.4,
-      "snippet": "Token Terminal Reports BENJI Gained $525.1M in Market Cap Coinfomania",
-      "prescore": 4,
-      "prescore_reasons": [
-        "funds_and_debt: tokenized fund",
-        "generic_tokenization: tokeniz, tokenis"
-      ],
-      "status": "kept",
-      "also_covered_by": []
-    },
-    {
-      "title": "Longbridge AI and Cyberport Partner to Drive Agentic AI Innovation in Hong Kong",
-      "url": "https://ffnews.com/news/longbridge-group-and-cyberport-announce-strategic-partnership-to-advance-respons-a49d3b50",
-      "google_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbW9QZkVYRm1DS28wRFlqSGZab2VxNFdySEZDZlJWRlpGMUNZQWdFQzllZlBkS0JlX1hVcTk1YjdlaUxUeGc3RW01ZzhrRFNhMTRzYTJ3ZE1NZG9JUHYyMng2dVl0RzkxcWNkR2ZnbzVGZThnMFdxU1QweG1tRVJESVM2ZURnVTd6U2VyRHhVM0kwd1E2ZDFqM2RHUFVodHMzTlFDTTFNWFJWSGI1QzRjUTdfWQ?oc=5",
-      "source": "FF News",
-      "found_by": [
-        "google_keywords",
-        "rss"
-      ],
-      "queries": [
-        "\"agentic AI\" bank Hong Kong OR Singapore"
-      ],
-      "published": "2026-11-09T16:44:49+00:00",
-      "date_method": "rss",
-      "dates_found": {
-        "rss": "2026-11-09T16:44:49+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 11.6,
-      "snippet": "Cyberport has signed a three-year strategic partnership with Longbridge AI Technologies Limited, the AI arm of Longbridge Group, to advance the responsible development and adoption of agentic AI in Hong Kong. The partnership will support the establishment of a Hong Kong AI Lab, bringing together financial institutions, technology companies, academic institutions and start-ups to explore [...] The post Longbridge Taps Cyberport to Build Agentic AI Lab in Hong Kong appeared first on Fintech Hong Kong .",
-      "prescore": 4,
-      "prescore_reasons": [
-        "ai: agentic AI",
-        "geography: Hong Kong"
-      ],
-      "status": "kept",
-      "also_covered_by": [
-        {
-          "source": "FinTech News Hong Kong",
-          "url": "https://fintechnews.hk/42042/ai/cyberport-longbridge-agentic-ai-lab-hong-kong/",
-          "title": "Longbridge Taps Cyberport to Build Agentic AI Lab in Hong Kong"
-        }
-      ]
-    },
-    {
-      "title": "Formation notifies SEC to operate first tokenized securities venue on Solana",
-      "url": "https://www.theblock.co/news/defi/2026-11-09-formation-tokenized-securities-solana-436060",
-      "google_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSmQ3TmVFUndzYy1yRUhYU1E4LW13X29Hc1pDVjFDdTdUQUlfX3lzYjZMTUJiM2tsUERnc0ZxQjd6VUxCUTJ5b1VFXzJXSEFSZ19LdWQ5c185WE92c0M5Mkdsd1BpTDBpQkVuTlhOUzFhNGxEX09hZC11SkZ1VmNJNQ?oc=5",
-      "source": "The Block",
-      "found_by": [
-        "google_firm",
-        "rss"
-      ],
-      "queries": [
-        "Centrifuge",
-        "Franklin Templeton"
-      ],
-      "published": "2026-11-09T12:30:00+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-09T12:30:00+00:00",
-        "meta": "2026-11-09T12:30:00+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T12:30:00+00:00",
-        "url": "2026-11-09T00:00:00+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 15.8,
-      "snippet": "Launch is expected in early 2027, with tokenized shares of Exodus Movement, Forward Industries, and Galaxy Digital among initial offerings.",
-      "prescore": 4,
-      "prescore_reasons": [
-        "funds_and_debt: real-world asset, real world asset",
-        "generic_tokenization: tokeniz, tokenis"
-      ],
-      "status": "kept",
-      "also_covered_by": [
-        {
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy",
-          "title": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy"
-        },
-        {
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/formation-securities-sec-solana-tokenized-venue/",
-          "title": "Formation Securities tells SEC it plans a tokenized stock venue on Solana"
-        },
-        {
-          "source": "Ledger Insights",
-          "url": "https://www.ledgerinsights.com/after-canton-debuts-tokenized-stock-venue-solana-venue-plans-galaxy-exodus-trading/",
-          "title": "After Canton debuts tokenized stock venue, Solana venue plans Galaxy, Exodus trading"
-        }
-      ]
-    },
-    {
-      "title": "Adyen stock joins HKMA group for agentic finance",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/adyen-stock-joins-hkma-group-for-agentic-finance/70480183",
-      "google_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZ1FmU2lYTzV5WDdkcEZ2RU4zUDdORXJreGlUZXlPQVY4LVZiNzlISFVjTzVWc3RmVkJ1UE1TTHpsOE5saXE2N3J5cHZmMFAzN2RKcGdvdTRhR3JqNlFKMDNaTmJKV1J6aG1GaTVVcUVFVnd1alFIdXhYZ0xJYTZWVkNldDg1UElBcm9qanFHSG9ueFJxbVJDdGg5eUtyaWxobU5iQjlkYVdTT2VhYnlTbg?oc=5",
-      "source": "ad-hoc-news.de",
-      "found_by": [
-        "google_keywords"
-      ],
-      "queries": [
-        "\"Project SAGE\" OR \"GenAI sandbox\" HKMA"
-      ],
-      "published": "2026-11-09T10:00:09+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-09T10:00:09+00:00",
-        "visible": "2026-11-02T00:00:00+00:00",
-        "rss": "2026-11-09T10:00:09+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 18.3,
-      "snippet": "Adyen stock joins HKMA group shaping agentic finance rules ad-hoc-news.de",
-      "prescore": 4,
-      "prescore_reasons": [
-        "ai: Project SAGE",
-        "geography: Hong Kong, HKMA"
-      ],
-      "status": "kept",
-      "also_covered_by": [
-        {
-          "source": "ad-hoc-news.de",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTndTX1J3aXBWeHllcE1FZDFIOFVOQU83bXVUQXJFNEVjWkxvblFueEc1RDZfMndES1pHeFpKWWI2Z2VoeTBlRnpyQjdtT3N2NUVuUXprWkdUcEJlMFN1aEp5dy01b3l4bHE0SFJmdnMzaHhEelFmYjBYZUtsbWNaTlJvNjc4ZERTckQ5aDdwUGg5V1F5cHlmRU5seXk2NTFxVWw3WE1fWEEybDRZb0VTc0JDeU9aUEYtRXl4bVZn?oc=5",
-          "title": "Adyen stock joins HKMA group shaping agentic finance rules"
-        }
-      ]
-    },
-    {
-      "title": "AI Reaches Widespread Adoption Among Banks",
-      "url": "https://fintechnews.sg/140623/ai/ai-reaches-widespread-adoption-among-banks/",
-      "google_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVWkxUDVLNmlwLV9nWl9iSUpSR3Vib3lLNnp4TUNXR3pNakk4Q2FBNkVmeWFqTVZoakh4RFZNU0xLVFl3THd5dl9pR25reVVubGJlTEZ1cnpiYVJfZEpfQkxpNHRCb2cyWFAtSG9mLWo0NUZYcmFKSzF6UFFCenZUTDVR?oc=5",
-      "source": "Fintech Singapore",
-      "found_by": [
-        "google_keywords"
-      ],
-      "queries": [
-        "\"agentic AI\" bank Hong Kong OR Singapore"
-      ],
-      "published": "2026-11-09T06:07:27+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-09T06:07:27+00:00",
-        "meta": "2026-11-09T06:07:27+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T06:07:27+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 22.2,
-      "snippet": "AI Reaches Widespread Adoption Among Banks Fintech Singapore",
-      "prescore": 4,
-      "prescore_reasons": [
-        "ai: agentic AI",
-        "geography: Singapore, Asia"
-      ],
-      "status": "kept",
-      "also_covered_by": []
-    },
-    {
-      "title": "Digital assets reshape financial order at inaugural World Digital Assets Forum",
-      "url": "https://biz.heraldcorp.com/article/10930374",
-      "google_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ETk9OQVBVUzNfT01Dc19SWDRDbDlmQ1VZUlYtMXNaTHkzV0FRdlBIT09rcmJrNFkxeWlMSU13TjVta2JuQXRqOWEtQWRreVRiU09uZThR?oc=5",
-      "source": "헤럴드경제",
-      "found_by": [
-        "google_firm"
-      ],
-      "queries": [
-        "Standard Chartered"
-      ],
-      "published": "2026-11-09T01:47:16+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-09T01:47:16+00:00",
-        "meta": "2026-11-09T01:47:16+00:00",
-        "visible": "2026-11-09T00:00:00+00:00",
-        "rss": "2026-11-09T01:47:16+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 26.5,
-      "snippet": "Digital assets reshape financial order at inaugural World Digital Assets Forum 헤럴드경제",
-      "prescore": 4,
-      "prescore_reasons": [
-        "generic_tokenization: tokeniz, tokenis",
-        "watched firms: Standard Chartered"
-      ],
-      "status": "kept",
-      "also_covered_by": []
-    },
-    {
-      "title": "Stellar Network Adds 10,000 to 15,000 New Wallet Addresses Daily, DefiLlama Data Shows",
-      "url": "https://cryptonews.net/news/altcoins/33719923/",
-      "google_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82UjVLYWpjQm9JUGFYQWdjWjJWT3JabVRHVWNsX2NYemRsNmVvSDZOR1dERGxLTnBURlhiREYyUHhXTHFkQ0tUR1lvdWxuNTBETnZKaWhUZVFLdw?oc=5",
-      "source": "Cryptonews.net",
-      "found_by": [
-        "google_firm"
-      ],
-      "queries": [
-        "Stellar Development Foundation"
-      ],
-      "published": "2026-11-08T20:45:00+00:00",
-      "date_method": "jsonld",
-      "dates_found": {
-        "jsonld": "2026-11-08T20:45:00+00:00",
-        "meta": "2026-11-08T20:45:00+00:00",
-        "visible": "2026-11-08T00:00:00+00:00",
-        "rss": "2026-11-08T21:16:43+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 31.6,
-      "snippet": "Stellar Network Adds 10,000 to 15,000 New Wallet Addresses Daily, DefiLlama Data Shows Cryptonews.net",
-      "prescore": 4,
-      "prescore_reasons": [
-        "generic_tokenization: tokeniz, tokenis",
-        "watched firms: Stellar Development Foundation"
-      ],
-      "status": "kept",
-      "also_covered_by": []
-    },
-    {
-      "title": "Janus Henderson brings first natively issued on-chain Nasdaq-100 fund to Stellar",
-      "url": "https://www.coindesk.com/video/janus-henderson-brings-first-natively-issued-on-chain-nasdaq-100-fund-to-stellar",
-      "google_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV0dNSHhidGdnS0hkcWdkNlhIdUtWMUVlZHY4bE5maDRLek1jWUl0d1luaExMRUM2ZDl4QWRQMmJvZGY4S25jazB2QVBLcHF1bmRPVjZkNjJxSkdpMW1hX2NBanBrUGZoY0o2OERqaHNydmhtMVNZS05EYngtNy1JMGxSRGpUZ3hoQXRwc1RHTGx6RThjRWZ0REhQUnQzYWptSXp2UklMY0UyLTVacmxnMA?oc=5",
-      "source": "CoinDesk",
-      "found_by": [
-        "google_firm"
-      ],
-      "queries": [
-        "Janus Henderson"
-      ],
-      "published": "2026-11-09T23:05:53+00:00",
-      "date_method": "rss",
-      "dates_found": {
-        "rss": "2026-11-09T23:05:53+00:00"
-      },
-      "date_verified": true,
-      "date_note": "",
-      "age_hours": 5.2,
-      "snippet": "Janus Henderson brings first natively issued on-chain Nasdaq-100 fund to Stellar CoinDesk",
-      "prescore": 3,
-      "prescore_reasons": [
-        "watched firms: Janus Henderson"
       ],
       "status": "kept",
       "also_covered_by": []
@@ -1358,11 +999,356 @@
       },
       "date_verified": true,
       "date_note": "",
-      "age_hours": 5.4,
+      "age_hours": 27.3,
       "snippet": "Stellar’s Meridian 2026 Launches with Focus on Trust Coinfomania",
+      "prescore": 4,
+      "prescore_reasons": [
+        "generic_tokenization: tokeniz, tokenis",
+        "watched firms: Stellar Development Foundation"
+      ],
+      "status": "kept",
+      "also_covered_by": []
+    },
+    {
+      "title": "Ethereum stablecoin and tokenized fund market cap drops 19% to $168B",
+      "url": "https://cryptobriefing.com/ethereum-stablecoin-tokenized-fund-market-drops-19/",
+      "google_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR3JJNEhjQVZhaFVOc2FaX29NYTI3R0VKYnNvSFFadVdwbnNxbjNiRzFyYmU0aUZPek1oX2wxSHA1UUgzQm1mVnd6bDdxRTRLX1ZoTGp4WHdUUEhXTnU1bVFhVHhYNDN6MGZYVWdvY2JrTDI1VzJjMzEzaEprYkFFSURvOVE?oc=5",
+      "source": "Crypto Briefing",
+      "found_by": [
+        "google_keywords"
+      ],
+      "queries": [
+        "\"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\""
+      ],
+      "published": "2026-11-09T19:25:20+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-09T19:25:20+00:00",
+        "meta": "2026-11-09T19:25:20+00:00",
+        "visible": "2026-11-09T00:00:00+00:00",
+        "rss": "2026-11-09T19:25:20+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 30.8,
+      "snippet": "ETH-based stablecoins, tokenized fund market cap down 19% since Kelp DAO hack CoinNess",
+      "prescore": 4,
+      "prescore_reasons": [
+        "funds_and_debt: tokenized fund",
+        "generic_tokenization: tokeniz, tokenis"
+      ],
+      "status": "kept",
+      "also_covered_by": [
+        {
+          "source": "CoinNess",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBsU2FVbGJtMlVaRGQ5ZVV1UmtpZzZDRkMzend1Nlg3ZnU4cUNNNmJ2U3BKS2tEeUdZZFFkYnNBUE9EeEt2RmQxblhMaXE?oc=5",
+          "title": "ETH-based stablecoins, tokenized fund market cap down 19% since Kelp DAO hack"
+        },
+        {
+          "source": "Pluang",
+          "url": "https://pluang.com/en/news-feed/kapitalisasi-pasar-stablecoin-tokenized-fund-ethereum-turun-19-persen",
+          "title": "Ethereum stablecoin market shrinks 19% after $2..."
+        }
+      ]
+    },
+    {
+      "title": "Longbridge AI and Cyberport Partner to Drive Agentic AI Innovation in Hong Kong",
+      "url": "https://ffnews.com/news/longbridge-group-and-cyberport-announce-strategic-partnership-to-advance-respons-a49d3b50",
+      "google_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbW9QZkVYRm1DS28wRFlqSGZab2VxNFdySEZDZlJWRlpGMUNZQWdFQzllZlBkS0JlX1hVcTk1YjdlaUxUeGc3RW01ZzhrRFNhMTRzYTJ3ZE1NZG9JUHYyMng2dVl0RzkxcWNkR2ZnbzVGZThnMFdxU1QweG1tRVJESVM2ZURnVTd6U2VyRHhVM0kwd1E2ZDFqM2RHUFVodHMzTlFDTTFNWFJWSGI1QzRjUTdfWQ?oc=5",
+      "source": "FF News",
+      "found_by": [
+        "google_keywords",
+        "rss"
+      ],
+      "queries": [
+        "\"agentic AI\" bank Hong Kong OR Singapore"
+      ],
+      "published": "2026-11-09T16:44:49+00:00",
+      "date_method": "rss",
+      "dates_found": {
+        "rss": "2026-11-09T16:44:49+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 33.5,
+      "snippet": "Cyberport has signed a three-year strategic partnership with Longbridge AI Technologies Limited, the AI arm of Longbridge Group, to advance the responsible development and adoption of agentic AI in Hong Kong. The partnership will support the establishment of a Hong Kong AI Lab, bringing together financial institutions, technology companies, academic institutions and start-ups to explore [...] The post Longbridge Taps Cyberport to Build Agentic AI Lab in Hong Kong appeared first on Fintech Hong Kong .",
+      "prescore": 4,
+      "prescore_reasons": [
+        "ai: agentic AI",
+        "geography: Hong Kong"
+      ],
+      "status": "kept",
+      "also_covered_by": [
+        {
+          "source": "FinTech News Hong Kong",
+          "url": "https://fintechnews.hk/42042/ai/cyberport-longbridge-agentic-ai-lab-hong-kong/",
+          "title": "Longbridge Taps Cyberport to Build Agentic AI Lab in Hong Kong"
+        }
+      ]
+    },
+    {
+      "title": "Ether ETFs Shed $184.6M in a Day as BlackRock Leads Redemptions",
+      "url": "https://www.tradingview.com/news/newsbtc:bfa61a34e094b:0-ether-etfs-shed-184-6m-in-a-day-as-blackrock-leads-redemptions/",
+      "google_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNakFpUG1RTjNFTGt4UUdacnkwbkJTUlNlNEdzMzE2X3NueWt0LXZfRENuakxhelNXbkc3MkFQbkt1ZGJaM28xTnV6VWJBN1JfcXpmQk96eWp6OHgtaGNCakhXZHphRlhpcGpPeXFHdnVUT1g2ZlYxVks3aXdQV09Zd213RW5CWWgyTko5VThXa3JFY1BUdE92QzlLc1RUdGtLQUY2RUdReF9UenBWTU5UbjJFR2ZtNW9SMUZyNQ?oc=5",
+      "source": "TradingView",
+      "found_by": [
+        "google_firm"
+      ],
+      "queries": [
+        "BlackRock"
+      ],
+      "published": "2026-11-10T20:00:00+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-10T20:00:00+00:00",
+        "meta": "2026-11-10T20:00:00+00:00",
+        "rss": "2026-11-10T20:00:00+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 6.2,
+      "snippet": "Ether ETFs Shed $184.6M in a Day as BlackRock Leads Redemptions TradingView",
       "prescore": 3,
       "prescore_reasons": [
-        "watched firms: Stellar Development Foundation"
+        "generic_tokenization: tokeniz, tokenis",
+        "watched firms: BlackRock",
+        "forecast: forecast"
+      ],
+      "status": "kept",
+      "also_covered_by": []
+    },
+    {
+      "title": "Fed’s Schmid says instant payments will outpace digital assets",
+      "url": "https://cryptobriefing.com/fed-schmid-instant-payments-digital-assets/",
+      "google_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4yajFldmpjNDJDaU45NERqMjB0RkhZUkVmcE4wekZQVVQwUFZPZlFuNHJUdWtHci1DQVdIbW1RSzhIRW5zQWxkTG1adFpVSnlPOU9BNUpHS2lWOVR4LXBzNnJuNEo0cG9IaXdJNWFZakk1cGZEUGN3d1BR?oc=5",
+      "source": "Crypto Briefing",
+      "found_by": [
+        "google_keywords"
+      ],
+      "queries": [
+        "\"tokenized deposits\" OR \"tokenised deposits\" OR \"Project Ensemble\" OR EnsembleTX"
+      ],
+      "published": "2026-11-10T19:00:36+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-10T19:00:36+00:00",
+        "meta": "2026-11-10T19:00:36+00:00",
+        "visible": "2026-11-10T00:00:00+00:00",
+        "rss": "2026-11-10T19:00:36+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 7.2,
+      "snippet": "Fed’s Schmid says instant payments will outpace digital assets Crypto Briefing",
+      "prescore": 3,
+      "prescore_reasons": [
+        "money_and_settlement: tokenized deposit",
+        "generic_tokenization: tokeniz, tokenis"
+      ],
+      "status": "kept",
+      "also_covered_by": []
+    },
+    {
+      "title": "Industry Stakeholders Predict Hybrid Model for Tokenization in Capital Markets",
+      "url": "https://fintechnews.ch/blockchain_bitcoin/industry-stakeholders-predict-hybrid-model-for-tokenization-in-capital-markets/86966/",
+      "google_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNFV1N3VjeWozQ01TVnVWQ3NhRmFQbjBHQmxXYV9lU2QxbjRUWEJkbEdCaUlpaUlTTjZ4c1E5dnVYbmZuaG9UY09CUUpZRllPeEVRWkVST19aN1Y4dHRWQjNBZXFJMWQ3YmZxVmJZV1lPNFVOZzFHWG1XWUlubGJkelNZV3ZqaDlFbDlCcmRyRThudFdCTFVuUFhsVkMzekZTN2hlcmdNZV9ZTlhucDdjYkxOQVVVVTloSlQteUh5djN2QklOd2c?oc=5",
+      "source": "FintechNews CH",
+      "found_by": [
+        "google_keywords"
+      ],
+      "queries": [
+        "\"real-world assets\" tokenization Asia"
+      ],
+      "published": "2026-11-10T09:16:00+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-10T09:16:00+00:00",
+        "meta": "2026-11-10T09:16:00+00:00",
+        "visible": "2026-11-04T00:00:00+00:00",
+        "rss": "2026-11-10T09:16:00+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 17.0,
+      "snippet": "Industry Stakeholders Predict Hybrid Model for Tokenization in Capital Markets FintechNews CH",
+      "prescore": 3,
+      "prescore_reasons": [
+        "generic_tokenization: tokeniz, tokenis",
+        "geography: Asia"
+      ],
+      "status": "kept",
+      "also_covered_by": []
+    },
+    {
+      "title": "Denis Beau Floats Private Clearing Layer For Tokenized Deposits Before Pontes Settlement",
+      "url": "https://www.onebullex.com/news/articles/denis-beau-floats-private-clearing-layer-for-tokenized-deposits-before-pontes-settlement",
+      "google_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbVNESWwzNHVDd2VOY2l2VDRnazNNT0R1Sjc3THpJVXRvSkY2R2NKb2xNdnNoWkFOUWlUUnhFdk9DakZFd2VxU0lKam10dTIyRWY5MHhINzBSMDBMMTNDNi1kTWYxeVdNM24wYlNSZGQ4Z0paMjZKNnk4ZmNabWZrS3lKNnBuamhSREM1TXpDVE82NEpLX2ZxVWpYZFc0aF9WUHVGRU11aHpCLVlIN3JwWDFPbDdtTmdPM3R0bk9tLVJxRTZYaDl3?oc=5",
+      "source": "OneBullEx",
+      "found_by": [
+        "google_keywords"
+      ],
+      "queries": [
+        "\"tokenized deposits\" OR \"tokenised deposits\" OR \"Project Ensemble\" OR EnsembleTX"
+      ],
+      "published": "2026-11-10T08:44:52+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-10T08:44:52+00:00",
+        "meta": "2026-11-10T08:44:52+00:00",
+        "rss": "2026-11-10T08:44:52+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 17.5,
+      "snippet": "Denis Beau Floats Private Clearing Layer For Tokenized Deposits Before Pontes Settlement OneBullEx",
+      "prescore": 3,
+      "prescore_reasons": [
+        "money_and_settlement: tokenized deposit",
+        "generic_tokenization: tokeniz, tokenis"
+      ],
+      "status": "kept",
+      "also_covered_by": []
+    },
+    {
+      "title": "The dot-com lesson Janus Henderson is applying to AI",
+      "url": "https://www.investordaily.com.au/the-dot-com-lesson-janus-henderson-is-applying-to-ai/",
+      "google_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY2V4N0pHS1FVbzNMVmFWa19tX1VGMUw2V2hpbWpoM3FzRk1CdVpBaDIwdWZXa3hGVHQwaDF0VkV5ZWkyUll3d01EdkkzRk50UGxJV29ULWU5cjdURjBTVjJubmJrVHMtMkZoTFNNb3FwQjltNFhCLTFNUllwS095MmdYRVdYa0ZyOVAzUVFScw?oc=5",
+      "source": "InvestorDaily",
+      "found_by": [
+        "google_firm"
+      ],
+      "queries": [
+        "Janus Henderson"
+      ],
+      "published": "2026-11-10T06:33:36+00:00",
+      "date_method": "rss",
+      "dates_found": {
+        "rss": "2026-11-10T06:33:36+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 19.7,
+      "snippet": "The dot-com lesson Janus Henderson is applying to AI InvestorDaily",
+      "prescore": 3,
+      "prescore_reasons": [
+        "watched firms: Janus Henderson"
+      ],
+      "status": "kept",
+      "also_covered_by": []
+    },
+    {
+      "title": "CASE STUDY | Why This Top 10 U.S Bank Pilot Demonstrates Stablecoins Might Not Replace Bank Deposits",
+      "url": "https://bitcoinke.io/2026/11/the-pnc-bank-case-study/",
+      "google_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jSlhhSXFJemJPYWt3YlJ3bUVGd2swOUdHY2tMTk03NlVwUlI1emhuZ29fTXRkcXRTdXNBSUR5dWZzbmpJbC1NN1I0UkZoZUNlNnpQNS01NDlWWG9YVzZYSmlqRQ?oc=5",
+      "source": "BitKE",
+      "found_by": [
+        "google_keywords"
+      ],
+      "queries": [
+        "\"tokenized deposits\" OR \"tokenised deposits\" OR \"Project Ensemble\" OR EnsembleTX"
+      ],
+      "published": "2026-11-10T06:00:21+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-10T06:00:21+00:00",
+        "meta": "2026-11-10T06:00:21+00:00",
+        "rss": "2026-11-10T06:00:21+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 20.2,
+      "snippet": "CASE STUDY | Why This Top 10 U.S Bank Pilot Demonstrates Stablecoins Might Not Replace Bank Deposits BitKE",
+      "prescore": 3,
+      "prescore_reasons": [
+        "money_and_settlement: tokenized deposit",
+        "generic_tokenization: tokeniz, tokenis"
+      ],
+      "status": "kept",
+      "also_covered_by": []
+    },
+    {
+      "title": "Janus Henderson brings first natively issued on-chain Nasdaq-100 fund to Stellar",
+      "url": "https://www.coindesk.com/video/janus-henderson-brings-first-natively-issued-on-chain-nasdaq-100-fund-to-stellar",
+      "google_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV0dNSHhidGdnS0hkcWdkNlhIdUtWMUVlZHY4bE5maDRLek1jWUl0d1luaExMRUM2ZDl4QWRQMmJvZGY4S25jazB2QVBLcHF1bmRPVjZkNjJxSkdpMW1hX2NBanBrUGZoY0o2OERqaHNydmhtMVNZS05EYngtNy1JMGxSRGpUZ3hoQXRwc1RHTGx6RThjRWZ0REhQUnQzYWptSXp2UklMY0UyLTVacmxnMA?oc=5",
+      "source": "CoinDesk",
+      "found_by": [
+        "google_firm"
+      ],
+      "queries": [
+        "Janus Henderson"
+      ],
+      "published": "2026-11-10T01:05:53+00:00",
+      "date_method": "rss",
+      "dates_found": {
+        "rss": "2026-11-10T01:05:53+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 25.1,
+      "snippet": "Janus Henderson brings first natively issued on-chain Nasdaq-100 fund to Stellar CoinDesk",
+      "prescore": 3,
+      "prescore_reasons": [
+        "watched firms: Janus Henderson"
+      ],
+      "status": "kept",
+      "also_covered_by": []
+    },
+    {
+      "title": "Hyperliquid equities volume tops Bitcoin trading again as traders buy the stock dip",
+      "url": "https://cryptobriefing.com/hyperliquid-equities-volume-tops-bitcoin-again/",
+      "google_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLZENoR1BGUFotREVhLVJwY2xjcDVfVnB5VGVBVXZ6aE5oM0tfbVN6alhVVGNzRmlTcWJzR1NYdmFndE4wZWU4UlF5NHZpOWNtMVdPMUYxSXQzeXFxRGVMX25zbkktMlFESlpjTUM5c2hGZkE1WHlwdjlKUE1hWjg?oc=5",
+      "source": "Crypto Briefing",
+      "found_by": [
+        "google_firm"
+      ],
+      "queries": [
+        "Janus Henderson"
+      ],
+      "published": "2026-11-09T18:37:19+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-09T18:37:19+00:00",
+        "meta": "2026-11-09T18:37:19+00:00",
+        "visible": "2026-11-09T00:00:00+00:00",
+        "rss": "2026-11-09T18:37:19+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 31.6,
+      "snippet": "Hyperliquid equities volume tops Bitcoin trading again as traders buy the stock dip Crypto Briefing",
+      "prescore": 3,
+      "prescore_reasons": [
+        "funds_and_debt: real-world asset, real world asset"
+      ],
+      "status": "kept",
+      "also_covered_by": []
+    },
+    {
+      "title": "Buybacks since October 28 total approximately US$165M at HSBC (HSBC).",
+      "url": "https://www.stocktitan.net/sec-filings/HSBC/6-k-hsbc-holdings-plc-current-report-foreign-issuer-a5465437d566.html",
+      "google_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUHhRUnZBMU1SLW5oc2dmazdDSzlWMDhsNW1mNFlxQTVYdnJ4R1lMWmh4X3RpRWNJci1UeUpFb19rYnBxMThPb3l1cGlqTWdTTDd1S3J5SmF2cWxNTjhXU0N2eENvajJGZ1JwM3JtQmY2ZFRXMVdCNkdEUG1jTDRjWnlLb090R0VZcVhDV1lhb0F5U1drTTlsemRoYnhPUTBxZlhramFNZGhfVk9XRnJVTk5Mcw?oc=5",
+      "source": "Stock Titan",
+      "found_by": [
+        "google_firm"
+      ],
+      "queries": [
+        "HSBC"
+      ],
+      "published": "2026-11-10T18:19:26+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-11-10T18:19:26+00:00",
+        "meta": "2026-11-10T18:19:26+00:00",
+        "visible": "2026-11-12T00:00:00+00:00",
+        "rss": "2026-11-10T18:19:51+00:00"
+      },
+      "date_verified": true,
+      "date_note": "",
+      "age_hours": 7.9,
+      "snippet": "Buybacks since October 28 total approximately US$165M at HSBC (HSBC). Stock Titan",
+      "prescore": 2,
+      "prescore_reasons": [
+        "geography: Hong Kong"
       ],
       "status": "kept",
       "also_covered_by": []
@@ -1370,34 +1356,35 @@
   ],
   "unverified": [
     {
-      "title": "BlackRock, Citi, Ripple & JPMorgan: AI, Quantum, Crypto 2026",
-      "url": "https://www.financexmagazine.com/post/from-pilots-to-production-blackrock-s-tokenised-funds-citi-s-agent-army-and-the-quantum-starting-g",
-      "google_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOT1JOTmxQcUtuTnduZk1JYm9CNWQ5QTZTdmpqbDZieTZ5NUhHcEhXazZTdU9Qd3U0ZzcxajVWYXNkNVEzLWFVeE0wNHJUQWNrU0Nac3Nva1NjdnUyZjAyVjhtbGVJTWF5TXVhS1dDQTlxZG5WZUlDY1RDeDl2SmVtOUhpYnJPOEcxNjZIRjljbi1wX2hqcDJKclhhLW0wdWF6NGlhXzRHbDhPRUVhSGgxMl9YMGNvZUpzVzE0aGNNLTNPRFhKY2cxc2h3X3k5enlvd2c?oc=5",
-      "source": "FinanceX Magazine",
+      "title": "HKMA Warns of Fake HSBC and HKDAP Tokens Amid Stablecoin Rollout",
+      "url": "https://coinmarketcap.com/academy/article/hkma-warns-of-fake-hsbc-and-hkdap-tokens-amid-stablecoin-rollout",
+      "google_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObUJDdW4xT2h1Q0I2dG1kOEprTmpDVkZpRXZuV3RKcWJfamllY080WENwa3k1UmR2Y2w5Yjc5Q3RDTlpaNGI3cFpMN3dUX1l3eW1JMTczWTYwbVJSYWxrWnM1dDFEaG5VZWNFNjZXVE1sbFRxYmtTSmlhNGhWUG51VWxSVktnRVlQS2hWTXdEWlBiRlVUUHQ0UTE1ZDdKNnJ5X2pqV1pYdjlPUQ?oc=5",
+      "source": "CoinMarketCap",
       "found_by": [
-        "google_firm"
+        "google_firm",
+        "google_keywords"
       ],
       "queries": [
-        "BlackRock"
+        "Anchorpoint",
+        "HKMA stablecoin licence OR license",
+        "HSBC"
       ],
-      "published": "2026-11-06T09:30:03.127000+00:00",
+      "published": "2026-04-29T15:15:56.342000+00:00",
       "date_method": "jsonld",
       "dates_found": {
-        "jsonld": "2026-11-06T09:30:03.127000+00:00",
-        "meta": "2026-11-06T09:30:03.127000+00:00",
-        "rss": "2026-11-08T16:27:45+00:00"
+        "jsonld": "2026-04-29T15:15:56.342000+00:00",
+        "rss": "2026-11-10T06:07:40+00:00"
       },
       "date_verified": false,
-      "date_note": "jsonld=2026-11-06 vs rss=2026-11-08",
-      "age_hours": 90.8,
-      "snippet": "BlackRock, Citi, Ripple & JPMorgan: AI, Quantum, Crypto 2026 FinanceX Magazine",
-      "prescore": 11,
+      "date_note": "jsonld=2026-04-29 vs rss=2026-11-10",
+      "age_hours": 4691.0,
+      "snippet": "HKMA Warns of Fake HSBC and HKDAP Tokens Amid Stablecoin Rollout CoinMarketCap",
+      "prescore": 10,
       "prescore_reasons": [
-        "funds_and_debt: tokenized money market fund",
-        "money_and_settlement: stablecoin issuer",
-        "ai: agentic AI",
+        "money_and_settlement: stablecoin issuer, HKDAP",
         "generic_tokenization: tokeniz, tokenis",
-        "watched firms: BlackRock"
+        "watched firms: Anchorpoint, HSBC, Standard Chartered",
+        "geography: Hong Kong, HKMA, Asia"
       ],
       "status": "unverified",
       "also_covered_by": []
@@ -1408,10 +1395,10 @@
       "google_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTUc0ZHZhc3U3ZnVrU051c09rSFE4SEZBR2pFVnEycThpc2VXMzJDSURveWxzMVdYQ2w2UEF1ME53MHllMzEzeVBZSEdnLTVzZEJrdXdPdUNYcmZ2M2tYRUxrMHRZVWlsMVhkZFNxRkllOHRLamI4dXZQMWtrWnlVMDF1WEJOMzNFNHlka2xPcWg5SDN5V1NzOHVYSGFPYVY3QW4zSA?oc=5",
       "source": "CoinMarketCap",
       "found_by": [
-        "google_keywords"
+        "google_firm"
       ],
       "queries": [
-        "\"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\""
+        "Franklin Templeton"
       ],
       "published": "2026-02-11T13:14:00.481000+00:00",
       "date_method": "jsonld",
@@ -1421,7 +1408,7 @@
       },
       "date_verified": false,
       "date_note": "jsonld=2026-02-11 vs rss=2026-11-09",
-      "age_hours": 6519.1,
+      "age_hours": 6541.0,
       "snippet": "Franklin Templeton and Binance Launch MMF Collateral Program CoinMarketCap",
       "prescore": 8,
       "prescore_reasons": [
@@ -1451,13 +1438,107 @@
       },
       "date_verified": false,
       "date_note": "jsonld=2026-03-25 vs rss=2026-11-10",
-      "age_hours": 5505.3,
+      "age_hours": 5527.3,
       "snippet": "Ondo and Franklin Templeton Partner To Put Stocks and ETFs On-Chain CoinMarketCap",
       "prescore": 8,
       "prescore_reasons": [
         "funds_and_debt: tokenized fund",
         "generic_tokenization: tokeniz, tokenis",
         "watched firms: Franklin Templeton, BlackRock"
+      ],
+      "status": "unverified",
+      "also_covered_by": []
+    },
+    {
+      "title": "Animoca Brands Backs Ava Labs To Grow Avalanche in Asia and Middle East",
+      "url": "https://coinmarketcap.com/academy/article/animoca-brands-backs-ava-labs-to-grow-avalanche-in-asia-and-middle-east",
+      "google_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVnpYcWJYY3UwNFhCLWtWNV9hVl9ZS3FEYmNNXzE5UEpibHNtRDVHQnYzZVltVXMzVnlwSXVSSHRRQWo3emdXUlJKNHFKRmtuUWRidkc4NHJ4SWtwcnQ5aWJqbDd6cjJwQWVzNlFabXFKa0tERmwwOE1NQ2J4WkVGSXdXa1RyRXV6czlpakgyUnUyODc5bUFIU08zeXVYdThrdXd1SkNCZlRpcXo5ZG5QcVFaZw?oc=5",
+      "source": "CoinMarketCap",
+      "found_by": [
+        "google_keywords"
+      ],
+      "queries": [
+        "\"real-world assets\" tokenization Asia"
+      ],
+      "published": "2026-03-19T23:03:58.362000+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-03-19T23:03:58.362000+00:00",
+        "rss": "2026-11-10T07:17:53+00:00"
+      },
+      "date_verified": false,
+      "date_note": "jsonld=2026-03-19 vs rss=2026-11-10",
+      "age_hours": 5667.2,
+      "snippet": "Animoca Brands Backs Ava Labs To Grow Avalanche in Asia and Middle East CoinMarketCap",
+      "prescore": 8,
+      "prescore_reasons": [
+        "funds_and_debt: tokenized bond, real-world asset, real world asset",
+        "money_and_settlement: Project Ensemble",
+        "generic_tokenization: tokeniz, tokenis",
+        "geography: Hong Kong, HKMA, Asia"
+      ],
+      "status": "unverified",
+      "also_covered_by": []
+    },
+    {
+      "title": "Victory Fintech Wins Hong Kong Crypto License",
+      "url": "https://coinmarketcap.com/academy/article/victory-fintech-wins-hong-kong-crypto-license",
+      "google_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdm9vNEk4OGQ1bzVENlhLanNpeW5pNEtnUUxYSDB6U2xmY3kzLU9Ga2xnWkNNX1hxRTRJdFNjSEpLdzlaV3BDejlFV0pycXJGNWFSdE9lcjJQVllPNHBPSXZ1SDZlRUNGUzJqVlludkNpRG52YU92ZlVKSGZvaTdZV2VFc2lPZUd5amxNS25vUXY?oc=5",
+      "source": "CoinMarketCap",
+      "found_by": [
+        "google_firm",
+        "google_keywords"
+      ],
+      "queries": [
+        "HKMA stablecoin licence OR license",
+        "HashKey"
+      ],
+      "published": "2026-02-17T01:50:52.335000+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-02-17T01:50:52.335000+00:00",
+        "rss": "2026-11-10T02:44:39+00:00"
+      },
+      "date_verified": false,
+      "date_note": "jsonld=2026-02-17 vs rss=2026-11-10",
+      "age_hours": 6408.4,
+      "snippet": "Victory Fintech Wins Hong Kong Crypto License CoinMarketCap",
+      "prescore": 8,
+      "prescore_reasons": [
+        "money_and_settlement: stablecoin issuer",
+        "generic_tokenization: tokeniz, tokenis",
+        "watched firms: HashKey",
+        "geography: Hong Kong, SFC"
+      ],
+      "status": "unverified",
+      "also_covered_by": []
+    },
+    {
+      "title": "JPMorgan, Citi Plan Tokenized Bank Network for 2027",
+      "url": "https://coinmarketcap.com/academy/article/%20jpmorgan-citi-tokenized-bank-network-2027",
+      "google_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQWlGZFJ5Y1BoUG93X3gtakQ1NnJjaWNMR3d3QXlHczY1aDFLOHczNUgycVFGek1DaXM3TEhZdzZYaE83anBoTk9uMngzZkFETGpGNmtjUkR3NXR2cnVSTDJ1RkFCOHctNmZPdExaaEFlM1pFeWFsbDlydUs5eUphcGZBNTlxSlZZbVBNeEFsVQ?oc=5",
+      "source": "CoinMarketCap",
+      "found_by": [
+        "google_keywords"
+      ],
+      "queries": [
+        "\"tokenized deposits\" OR \"tokenised deposits\" OR \"Project Ensemble\" OR EnsembleTX"
+      ],
+      "published": "2026-06-05T17:04:51.762000+00:00",
+      "date_method": "jsonld",
+      "dates_found": {
+        "jsonld": "2026-06-05T17:04:51.762000+00:00",
+        "rss": "2026-11-10T03:39:36+00:00"
+      },
+      "date_verified": false,
+      "date_note": "jsonld=2026-06-05 vs rss=2026-11-10",
+      "age_hours": 3801.2,
+      "snippet": "JPMorgan, Citi Plan Tokenized Bank Network for 2027 CoinMarketCap",
+      "prescore": 5,
+      "prescore_reasons": [
+        "money_and_settlement: tokenized deposit",
+        "generic_tokenization: tokeniz, tokenis",
+        "geography: Singapore"
       ],
       "status": "unverified",
       "also_covered_by": []
@@ -1481,7 +1562,7 @@
       },
       "date_verified": false,
       "date_note": "jsonld=2026-02-11 vs rss=2026-11-09",
-      "age_hours": 6512.4,
+      "age_hours": 6534.3,
       "snippet": "Uniswap Jumps 20% as BlackRock Brings BUIDL to Uniswap CoinMarketCap",
       "prescore": 4,
       "prescore_reasons": [
@@ -1492,56 +1573,92 @@
       "also_covered_by": []
     },
     {
-      "title": "Blockchain payments: from exploration to implementation",
-      "url": "https://www.ey.com/en_tw/insights/financial-services/seven-signals-shaping-the-next-phase-of-blockchain-payments",
-      "google_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUnRjOEtsQVlkOWEzTUFoOGwxdU9FM09uQmRqR2kzN1hTalNycEQ5RFNOb0kzTXpra3lXSFNZOW5FWVEwTk9yTGtRZnpJVXNUVFV6ZFhvRVY4WXQ2Q3k0MXBlX2xnRkhMS21nR3lTWVJkN3VCX1p1SFlQWkFjQmowUExmNXVRR1BqNl83STdaY2Q3Qmp3Y3Zyc3U5ZHNHb1NydkxHRjhjelk2Q0twSFpvYUxR?oc=5",
-      "source": "EY",
+      "title": "Anthropic (antcoin.fun) price today, ANT to USD live price, marketcap and chart",
+      "url": "https://coinmarketcap.com/currencies/anthropic-antcoin-fun/",
+      "google_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1HWWFMdnlLaUpzM3M2QkVRRVN2Nk1BMTJPUXgtS2hkQWVfcTNfTGtQcy1aQWxROEg2dlRJYVA0bkhISGNMTXkwTzlobWtIMF9wclBhaDhMdEhBa3JvNXR6aW9lMzN5amFEVkZJ?oc=5",
+      "source": "CoinMarketCap",
       "found_by": [
-        "google_keywords"
+        "google_firm"
       ],
       "queries": [
-        "\"tokenized deposits\" OR \"tokenised deposits\" OR \"Project Ensemble\" OR EnsembleTX"
+        "Ant",
+        "Centrifuge"
       ],
-      "published": "2026-10-22T20:25:15+00:00",
-      "date_method": "jsonld",
+      "published": "2026-11-09T18:31:53+00:00",
+      "date_method": "rss",
       "dates_found": {
-        "jsonld": "2026-10-22T20:25:15+00:00",
-        "rss": "2026-11-09T23:14:24+00:00"
+        "visible": "2026-11-06T00:00:00+00:00",
+        "rss": "2026-11-09T18:31:53+00:00"
       },
       "date_verified": false,
-      "date_note": "jsonld=2026-10-22 vs rss=2026-11-09",
-      "age_hours": 439.9,
-      "snippet": "Blockchain payments: from exploration to implementation EY",
+      "date_note": "rss=2026-11-09 vs visible=2026-11-06",
+      "age_hours": 31.7,
+      "snippet": "Anthropic (antcoin.fun) price today, ANT to USD live price, marketcap and chart CoinMarketCap",
+      "prescore": 3,
+      "prescore_reasons": [
+        "funds_and_debt: real-world asset, real world asset",
+        "watched firms: Centrifuge",
+        "noise: airdrop, technical analysis"
+      ],
+      "status": "unverified",
+      "also_covered_by": [
+        {
+          "source": "Binance",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94b0wydWc3Nlpxei1rWWxVTEFuUlRQR3RkVVpiWUpjaUl6Yld0UExoT2t1NWR4Y1BMWnh4OUdQYXZ1TGV6R2J2UkdtQWdDOVhSUjlQTnJuOXlRQQ?oc=5",
+          "title": "Centrifuge Price Today | Live CFG Price, Chart & Market Data"
+        }
+      ]
+    },
+    {
+      "title": "Spot Bitcoin ETF Flows In BTC Daily Chart: BlackRock, Fidelity and More",
+      "url": "https://www.theblock.co/data/etfs/spot-bitcoin-etf-flows-in-btc",
+      "google_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wN3RDSjRLU1BPSXRTWncxUmh4TllqQnotX2w0ZjdMcExTNE1GdG9oRWJEOWFCNHF5bm9fbGpNV3pORlp5U3ZCS0dBaDEyQ2lpc0pQQW85aHhxUW43UWNPNUJqZ3AybW9YM01pb0pqcEs?oc=5",
+      "source": "The Block",
+      "found_by": [
+        "google_firm"
+      ],
+      "queries": [
+        "BlackRock"
+      ],
+      "published": "2026-11-11T16:50:00+00:00",
+      "date_method": "meta",
+      "dates_found": {
+        "meta": "2026-11-11T16:50:00+00:00",
+        "visible": "2026-11-08T00:00:00+00:00",
+        "rss": "2026-11-10T03:35:00+00:00"
+      },
+      "date_verified": false,
+      "date_note": "meta=2026-11-11 vs rss=2026-11-10",
+      "age_hours": -14.6,
+      "snippet": "Spot Bitcoin ETF Flows In BTC Daily Chart: BlackRock, Fidelity and More The Block",
       "prescore": 0,
       "prescore_reasons": [],
       "status": "unverified",
       "also_covered_by": []
     },
     {
-      "title": "AI, Bitcoin, Culture, Gaming, and Crypto News - Decrypt",
-      "url": "https://decrypt.co/?s=DNA",
-      "google_url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE5SWmNSODE1SG11LXc3dkRXUWNid2wzdUlqbnNZQV9rZk9ZRTIxRnE1OTF3MTRUdk5kR1E5WG5n?oc=5",
-      "source": "Decrypt",
+      "title": "Standard Chartered Warns Bitcoin Faces $50K Drop Before Year-End Rally",
+      "url": "https://coinmarketcap.com/academy/article/standard-chartered-warns-bitcoin-faces-dollar50k-drop-before-year-end-rally",
+      "google_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR3BoNzN4dEE3LURCS2d0aVJQcVU4TmkxVnEtRVY3cFdrLVRqYngwdkczalJwVU02VEtkdnRTZ2FYdzUzallhZkpmQVpQc2pkb2d2Z1VIeWZNVjhwNWppMVEtRElKb2ZOeFRubERmNEVnY1BKc1FmdUcxa2VXNW05TS1CQktJY0I1aThZeGpjdVFkUDRvcHJsWTJTQVQwM2NvU2RZZ2M4UlRpbkFOLXVfMXpjME5RM21O?oc=5",
+      "source": "CoinMarketCap",
       "found_by": [
         "google_firm"
       ],
       "queries": [
-        "Janus Henderson"
+        "Standard Chartered"
       ],
-      "published": "2018-11-10T00:00:00+00:00",
+      "published": "2026-02-12T19:21:52.508000+00:00",
       "date_method": "jsonld",
       "dates_found": {
-        "jsonld": "2018-11-10T00:00:00+00:00",
-        "meta": "2026-11-09T22:36:02+00:00",
-        "rss": "2026-11-09T01:19:32+00:00"
+        "jsonld": "2026-02-12T19:21:52.508000+00:00",
+        "rss": "2026-11-10T01:14:26+00:00"
       },
       "date_verified": false,
-      "date_note": "jsonld=2018-11-10 vs meta=2026-11-09",
-      "age_hours": 70132.3,
-      "snippet": "AI, Bitcoin, Culture, Gaming, and Crypto News - Decrypt Decrypt",
-      "prescore": -4,
+      "date_note": "jsonld=2026-02-12 vs rss=2026-11-10",
+      "age_hours": 6510.9,
+      "snippet": "Standard Chartered Warns Bitcoin Faces $50K Drop Before Year-End Rally CoinMarketCap",
+      "prescore": -1,
       "prescore_reasons": [
-        "noise: meme coin",
         "forecast: forecast"
       ],
       "status": "unverified",
@@ -1553,7 +1670,7 @@
       "source": "HKMA press releases",
       "url": "https://www.hkma.gov.hk/eng/other-information/rss/rss_press-release.xml",
       "status": "ok",
-      "entries": 431,
+      "entries": 426,
       "on_topic": 7,
       "error": ""
     },
@@ -1602,7 +1719,7 @@
       "url": "https://fintechnews.hk/feed",
       "status": "ok",
       "entries": 10,
-      "on_topic": 4,
+      "on_topic": 3,
       "error": ""
     },
     {
@@ -1610,7 +1727,7 @@
       "url": "https://fintechnews.sg/feed",
       "status": "ok",
       "entries": 10,
-      "on_topic": 1,
+      "on_topic": 0,
       "error": ""
     },
     {
@@ -1626,15 +1743,15 @@
       "url": "https://feeds.feedburner.com/CoinDesk",
       "status": "ok",
       "entries": 25,
-      "on_topic": 3,
+      "on_topic": 4,
       "error": ""
     },
     {
       "source": "The Block",
       "url": "https://www.theblock.co/rss.xml",
       "status": "ok",
-      "entries": 20,
-      "on_topic": 4,
+      "entries": 19,
+      "on_topic": 0,
       "error": ""
     },
     {
@@ -1642,7 +1759,7 @@
       "url": "https://www.finextra.com/rss/headlines.aspx",
       "status": "ok",
       "entries": 52,
-      "on_topic": 1,
+      "on_topic": 2,
       "error": ""
     },
     {
@@ -1657,24 +1774,24 @@
       "source": "Google News [US]: \"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\"",
       "url": "https://news.google.com/rss/search?q=%22tokenized%20fund%22%20OR%20%22tokenised%20fund%22%20OR%20%22onchain%20fund%22%20OR%20%22tokenized%20money%20market%22%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 9,
-      "on_topic": 9,
+      "entries": 11,
+      "on_topic": 11,
       "error": ""
     },
     {
       "source": "Google News [HK]: \"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\"",
       "url": "https://news.google.com/rss/search?q=%22tokenized%20fund%22%20OR%20%22tokenised%20fund%22%20OR%20%22onchain%20fund%22%20OR%20%22tokenized%20money%20market%22%20when%3A2d&hl=en-HK&gl=HK&ceid=HK%3Aen",
       "status": "ok",
-      "entries": 9,
-      "on_topic": 9,
+      "entries": 11,
+      "on_topic": 11,
       "error": ""
     },
     {
       "source": "Google News [SG]: \"tokenized fund\" OR \"tokenised fund\" OR \"onchain fund\" OR \"tokenized money market\"",
       "url": "https://news.google.com/rss/search?q=%22tokenized%20fund%22%20OR%20%22tokenised%20fund%22%20OR%20%22onchain%20fund%22%20OR%20%22tokenized%20money%20market%22%20when%3A2d&hl=en-SG&gl=SG&ceid=SG%3Aen",
       "status": "ok",
-      "entries": 10,
-      "on_topic": 10,
+      "entries": 12,
+      "on_topic": 12,
       "error": ""
     },
     {
@@ -1705,24 +1822,24 @@
       "source": "Google News [US]: \"real-world assets\" tokenization Asia",
       "url": "https://news.google.com/rss/search?q=%22real-world%20assets%22%20tokenization%20Asia%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 6,
-      "on_topic": 6,
+      "entries": 9,
+      "on_topic": 9,
       "error": ""
     },
     {
       "source": "Google News [HK]: \"real-world assets\" tokenization Asia",
       "url": "https://news.google.com/rss/search?q=%22real-world%20assets%22%20tokenization%20Asia%20when%3A2d&hl=en-HK&gl=HK&ceid=HK%3Aen",
       "status": "ok",
-      "entries": 6,
-      "on_topic": 6,
+      "entries": 9,
+      "on_topic": 9,
       "error": ""
     },
     {
       "source": "Google News [SG]: \"real-world assets\" tokenization Asia",
       "url": "https://news.google.com/rss/search?q=%22real-world%20assets%22%20tokenization%20Asia%20when%3A2d&hl=en-SG&gl=SG&ceid=SG%3Aen",
       "status": "ok",
-      "entries": 6,
-      "on_topic": 6,
+      "entries": 9,
+      "on_topic": 9,
       "error": ""
     },
     {
@@ -1753,120 +1870,120 @@
       "source": "Google News [US]: \"tokenized deposits\" OR \"tokenised deposits\" OR \"Project Ensemble\" OR EnsembleTX",
       "url": "https://news.google.com/rss/search?q=%22tokenized%20deposits%22%20OR%20%22tokenised%20deposits%22%20OR%20%22Project%20Ensemble%22%20OR%20EnsembleTX%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 8,
-      "on_topic": 8,
+      "entries": 12,
+      "on_topic": 12,
       "error": ""
     },
     {
       "source": "Google News [HK]: \"tokenized deposits\" OR \"tokenised deposits\" OR \"Project Ensemble\" OR EnsembleTX",
       "url": "https://news.google.com/rss/search?q=%22tokenized%20deposits%22%20OR%20%22tokenised%20deposits%22%20OR%20%22Project%20Ensemble%22%20OR%20EnsembleTX%20when%3A2d&hl=en-HK&gl=HK&ceid=HK%3Aen",
       "status": "ok",
-      "entries": 7,
-      "on_topic": 7,
+      "entries": 12,
+      "on_topic": 12,
       "error": ""
     },
     {
       "source": "Google News [SG]: \"tokenized deposits\" OR \"tokenised deposits\" OR \"Project Ensemble\" OR EnsembleTX",
       "url": "https://news.google.com/rss/search?q=%22tokenized%20deposits%22%20OR%20%22tokenised%20deposits%22%20OR%20%22Project%20Ensemble%22%20OR%20EnsembleTX%20when%3A2d&hl=en-SG&gl=SG&ceid=SG%3Aen",
       "status": "ok",
-      "entries": 8,
-      "on_topic": 8,
+      "entries": 12,
+      "on_topic": 12,
       "error": ""
     },
     {
       "source": "Google News [US]: HKMA stablecoin licence OR license",
       "url": "https://news.google.com/rss/search?q=HKMA%20stablecoin%20licence%20OR%20license%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 1,
-      "on_topic": 1,
+      "entries": 3,
+      "on_topic": 3,
       "error": ""
     },
     {
       "source": "Google News [HK]: HKMA stablecoin licence OR license",
       "url": "https://news.google.com/rss/search?q=HKMA%20stablecoin%20licence%20OR%20license%20when%3A2d&hl=en-HK&gl=HK&ceid=HK%3Aen",
       "status": "ok",
-      "entries": 1,
-      "on_topic": 1,
+      "entries": 3,
+      "on_topic": 3,
       "error": ""
     },
     {
       "source": "Google News [SG]: HKMA stablecoin licence OR license",
       "url": "https://news.google.com/rss/search?q=HKMA%20stablecoin%20licence%20OR%20license%20when%3A2d&hl=en-SG&gl=SG&ceid=SG%3Aen",
       "status": "ok",
-      "entries": 1,
-      "on_topic": 1,
+      "entries": 3,
+      "on_topic": 3,
       "error": ""
     },
     {
       "source": "Google News [US]: \"structured products\" tokenized OR tokenised",
       "url": "https://news.google.com/rss/search?q=%22structured%20products%22%20tokenized%20OR%20tokenised%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 1,
-      "on_topic": 1,
+      "entries": 4,
+      "on_topic": 4,
       "error": ""
     },
     {
       "source": "Google News [HK]: \"structured products\" tokenized OR tokenised",
       "url": "https://news.google.com/rss/search?q=%22structured%20products%22%20tokenized%20OR%20tokenised%20when%3A2d&hl=en-HK&gl=HK&ceid=HK%3Aen",
       "status": "ok",
-      "entries": 1,
-      "on_topic": 1,
+      "entries": 4,
+      "on_topic": 4,
       "error": ""
     },
     {
       "source": "Google News [SG]: \"structured products\" tokenized OR tokenised",
       "url": "https://news.google.com/rss/search?q=%22structured%20products%22%20tokenized%20OR%20tokenised%20when%3A2d&hl=en-SG&gl=SG&ceid=SG%3Aen",
       "status": "ok",
-      "entries": 1,
-      "on_topic": 1,
+      "entries": 4,
+      "on_topic": 4,
       "error": ""
     },
     {
       "source": "Google News [US]: \"agentic AI\" bank Hong Kong OR Singapore",
       "url": "https://news.google.com/rss/search?q=%22agentic%20AI%22%20bank%20Hong%20Kong%20OR%20Singapore%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 4,
-      "on_topic": 4,
+      "entries": 7,
+      "on_topic": 7,
       "error": ""
     },
     {
       "source": "Google News [HK]: \"agentic AI\" bank Hong Kong OR Singapore",
       "url": "https://news.google.com/rss/search?q=%22agentic%20AI%22%20bank%20Hong%20Kong%20OR%20Singapore%20when%3A2d&hl=en-HK&gl=HK&ceid=HK%3Aen",
       "status": "ok",
-      "entries": 4,
-      "on_topic": 4,
+      "entries": 7,
+      "on_topic": 7,
       "error": ""
     },
     {
       "source": "Google News [SG]: \"agentic AI\" bank Hong Kong OR Singapore",
       "url": "https://news.google.com/rss/search?q=%22agentic%20AI%22%20bank%20Hong%20Kong%20OR%20Singapore%20when%3A2d&hl=en-SG&gl=SG&ceid=SG%3Aen",
       "status": "ok",
-      "entries": 4,
-      "on_topic": 4,
+      "entries": 6,
+      "on_topic": 6,
       "error": ""
     },
     {
       "source": "Google News [US]: \"Project SAGE\" OR \"GenAI sandbox\" HKMA",
       "url": "https://news.google.com/rss/search?q=%22Project%20SAGE%22%20OR%20%22GenAI%20sandbox%22%20HKMA%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 5,
-      "on_topic": 5,
+      "entries": 3,
+      "on_topic": 3,
       "error": ""
     },
     {
       "source": "Google News [HK]: \"Project SAGE\" OR \"GenAI sandbox\" HKMA",
       "url": "https://news.google.com/rss/search?q=%22Project%20SAGE%22%20OR%20%22GenAI%20sandbox%22%20HKMA%20when%3A2d&hl=en-HK&gl=HK&ceid=HK%3Aen",
       "status": "ok",
-      "entries": 5,
-      "on_topic": 5,
+      "entries": 3,
+      "on_topic": 3,
       "error": ""
     },
     {
       "source": "Google News [SG]: \"Project SAGE\" OR \"GenAI sandbox\" HKMA",
       "url": "https://news.google.com/rss/search?q=%22Project%20SAGE%22%20OR%20%22GenAI%20sandbox%22%20HKMA%20when%3A2d&hl=en-SG&gl=SG&ceid=SG%3Aen",
       "status": "ok",
-      "entries": 5,
-      "on_topic": 5,
+      "entries": 3,
+      "on_topic": 3,
       "error": ""
     },
     {
@@ -1897,8 +2014,8 @@
       "source": "Google News firm: Marketnode",
       "url": "https://news.google.com/rss/search?q=%22Marketnode%22%20%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 2,
-      "on_topic": 2,
+      "entries": 1,
+      "on_topic": 1,
       "error": ""
     },
     {
@@ -1913,32 +2030,32 @@
       "source": "Google News firm: Stellar Development Foundation",
       "url": "https://news.google.com/rss/search?q=%22Stellar%20Development%20Foundation%22%20%28tokenization%20OR%20tokenisation%20OR%20tokenized%20OR%20tokenised%20OR%20RWA%20OR%20onchain%20OR%20stablecoin%20OR%20blockchain%20OR%20%22digital%20asset%22%29%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 5,
-      "on_topic": 5,
+      "entries": 3,
+      "on_topic": 3,
       "error": ""
     },
     {
       "source": "Google News firm: Stellar",
       "url": "https://news.google.com/rss/search?q=%22Stellar%22%20%28tokenization%20OR%20tokenisation%20OR%20tokenized%20OR%20tokenised%20OR%20RWA%20OR%20onchain%20OR%20stablecoin%20OR%20blockchain%20OR%20%22digital%20asset%22%29%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 13,
-      "on_topic": 13,
+      "entries": 11,
+      "on_topic": 11,
       "error": ""
     },
     {
       "source": "Google News firm: Centrifuge",
       "url": "https://news.google.com/rss/search?q=%22Centrifuge%22%20%28tokenization%20OR%20tokenisation%20OR%20tokenized%20OR%20tokenised%20OR%20RWA%20OR%20onchain%20OR%20stablecoin%20OR%20blockchain%20OR%20%22digital%20asset%22%29%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 10,
-      "on_topic": 10,
+      "entries": 9,
+      "on_topic": 9,
       "error": ""
     },
     {
       "source": "Google News firm: Janus Henderson",
       "url": "https://news.google.com/rss/search?q=%22Janus%20Henderson%22%20%28tokenization%20OR%20tokenisation%20OR%20tokenized%20OR%20tokenised%20OR%20RWA%20OR%20onchain%20OR%20stablecoin%20OR%20blockchain%20OR%20%22digital%20asset%22%29%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 6,
-      "on_topic": 6,
+      "entries": 9,
+      "on_topic": 9,
       "error": ""
     },
     {
@@ -1953,16 +2070,16 @@
       "source": "Google News firm: BlackRock",
       "url": "https://news.google.com/rss/search?q=%22BlackRock%22%20%28tokenization%20OR%20tokenisation%20OR%20tokenized%20OR%20tokenised%20OR%20RWA%20OR%20onchain%20OR%20stablecoin%20OR%20blockchain%20OR%20%22digital%20asset%22%29%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 27,
-      "on_topic": 27,
+      "entries": 33,
+      "on_topic": 33,
       "error": ""
     },
     {
       "source": "Google News firm: HashKey",
       "url": "https://news.google.com/rss/search?q=%22HashKey%22%20%28tokenization%20OR%20tokenisation%20OR%20tokenized%20OR%20tokenised%20OR%20RWA%20OR%20onchain%20OR%20stablecoin%20OR%20blockchain%20OR%20%22digital%20asset%22%29%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 5,
-      "on_topic": 5,
+      "entries": 8,
+      "on_topic": 8,
       "error": ""
     },
     {
@@ -2001,31 +2118,31 @@
       "source": "Google News firm: HSBC",
       "url": "https://news.google.com/rss/search?q=%22HSBC%22%20%28tokenization%20OR%20tokenisation%20OR%20tokenized%20OR%20tokenised%20OR%20RWA%20OR%20onchain%20OR%20stablecoin%20OR%20blockchain%20OR%20%22digital%20asset%22%29%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 8,
-      "on_topic": 8,
+      "entries": 11,
+      "on_topic": 11,
       "error": ""
     },
     {
       "source": "Google News firm: Standard Chartered",
       "url": "https://news.google.com/rss/search?q=%22Standard%20Chartered%22%20%28tokenization%20OR%20tokenisation%20OR%20tokenized%20OR%20tokenised%20OR%20RWA%20OR%20onchain%20OR%20stablecoin%20OR%20blockchain%20OR%20%22digital%20asset%22%29%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 9,
-      "on_topic": 9,
+      "entries": 17,
+      "on_topic": 17,
       "error": ""
     },
     {
       "source": "Google News firm: Ant",
       "url": "https://news.google.com/rss/search?q=%22Ant%22%20%28tokenization%20OR%20tokenisation%20OR%20tokenized%20OR%20tokenised%20OR%20RWA%20OR%20onchain%20OR%20stablecoin%20OR%20blockchain%20OR%20%22digital%20asset%22%29%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 7,
-      "on_topic": 7,
+      "entries": 15,
+      "on_topic": 15,
       "error": ""
     },
     {
       "source": "Google News site: HKMA (fallback)",
       "url": "https://news.google.com/rss/search?q=site%3Ahkma.gov.hk%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 3,
+      "entries": 5,
       "on_topic": 0,
       "error": ""
     },
@@ -2033,7 +2150,7 @@
       "source": "Google News site: HKSAR Government press releases (fallback)",
       "url": "https://news.google.com/rss/search?q=site%3Ainfo.gov.hk%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 50,
+      "entries": 54,
       "on_topic": 0,
       "error": ""
     },
@@ -2041,7 +2158,7 @@
       "source": "Google News site: MAS media releases",
       "url": "https://news.google.com/rss/search?q=site%3Amas.gov.sg%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 4,
+      "entries": 6,
       "on_topic": 0,
       "error": ""
     },
@@ -2049,7 +2166,7 @@
       "source": "Google News site: Cyberport",
       "url": "https://news.google.com/rss/search?q=site%3Acyberport.hk%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 0,
+      "entries": 1,
       "on_topic": 0,
       "error": ""
     },
@@ -2065,7 +2182,7 @@
       "source": "Google News site: The Standard (HK)",
       "url": "https://news.google.com/rss/search?q=site%3Athestandard.com.hk%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
       "status": "ok",
-      "entries": 35,
+      "entries": 57,
       "on_topic": 0,
       "error": ""
     },
